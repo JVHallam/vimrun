@@ -1,0 +1,75 @@
+How to make the user feel good:
+  Time trails
+
+  Points rating systems
+
+  percentage of the accuracy
+
+What are the essentials of vim:
+  movement:
+    hjlk -> They're so essential and needed that you learn them regardless.
+    e,w and b -> They're needed, but harder to really get used to.
+      -> I've noticed during the vimtutor correction exercises, they're useful for learning w, e, b.
+      -> w -> start of word correction, e -> end of word correction
+      -> b -> force the user into a situation where they're at the end of a set of words that need editing
+      -> Have a correction exercise that literally only requires, w,e,x
+
+      -> Chaining w,e into b whilst editing with x
+        -> Go along one line, from left to right,
+        -> Go along the next line, from right to left, using only b
+
+  Correction:
+    -> u, U -> these are essential, don't really need addressing
+    -> x, c, R, r -> r is just as useful as x 
+    -> useful, whenever the
+
+  Appending:
+    -> a and A, could also be a pretty useful thing to do with w,e,b movement
+
+  Copy and paste:
+
+  Searching + Replacement:
+    -> I replacement is good way to encrypt the file. Replace a bunch of characters, with a bunch of others
+    -> That way, the user is forced to do global and local replacements, so that they can decrypt the exercise
+    -> They could have to search for the unlock keys in the text?
+      -> /key:(<key_goes_here>) where :%s/character/key/g fixes the text globally
+      -> searching and :set hlsearch could be useful here
+
+    -> g movement:
+      -> gg may be hard to put in
+      -> <line_no> : G
+      -> G
+      -> could be put in with the find and decryption
+
+  Chords and multipliers:
+    -> replacement, deletion and visual mode are fantastic ways of getting used to the chords involved
+
+  File management:  
+    -> This could be a bonus, level 2 sort of situation
+    -> file exploration using the :Sex command
+    -> split screening
+    -> tabs
+      -> gt tab switching
+      -> copying and pasting from one file to another
+    -> splits into tabs:
+      -> ctrl+w, shift+t
+    
+
+Ideas for the new file:
+  The file starts off as absolute giberish
+
+  :set hlsearch
+  /<value> to find all occurences of a value
+    -> dd all lines containing that value
+
+  /<val[ue]> to do the same as above
+    -> dd all lines containing that value
+    
+  -> :%s/old/new/g
+    -> start replacing some of the gibberish with new and useful values
+    -> do this with the entire alphabet to decrypt the rest of the tutorial
+
+  -> '<,'>w <file_name>
+  -> :r <file_name>
+    -> Don't know exactly how useful this command is
+

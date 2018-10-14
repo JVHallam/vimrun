@@ -1,0 +1,6 @@
+#!/bin/bash
+
+filename="/tmp/vim2tor$RANDOM"
+cp base_file_vim2tor.txt $filename;
+vi $filename;
+
