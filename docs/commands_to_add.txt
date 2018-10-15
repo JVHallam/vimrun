@@ -53,6 +53,9 @@ What are the essentials of vim:
       -> copying and pasting from one file to another
     -> splits into tabs:
       -> ctrl+w, shift+t
+
+  Autocomplete:
+    -> CTRL + P to autocomplete a word, have a quick section on the usage of that
     
 
 Ideas for the new file:

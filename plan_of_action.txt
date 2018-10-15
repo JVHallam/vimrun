@@ -1,7 +1,0 @@
-The most important start is:
-  movement and editing:
-    -> movement tools : w,e,b
-    -> editing tools : o, O, c, x
-    -> copy and pasting : v, p
-
-There needs to be a buttload of exercises that do this
