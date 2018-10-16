@@ -22,11 +22,18 @@ To implement:
     -> 5 lines missing endings
 
   -> "dw"
-    -> 3 lines with extra words
-    -> 3 lines with extra words in random amounts, like in vim tutor
+    -> This one needs to place a super heavy emphasis on multipliers
+    -> 6 lines with extra words in random amounts, like in vim tutor
 
   -> "D" and "d$"
     -> 5 lines of varying lengths, with extra words
+    -> Good short exercise
+
+  -> "dd" 
+    -> have a list of atleast 15 elements, where 6 need removing
+
+  -> "dd" and "p"
+    -> Do exactly what they did in vimtutor, 3 times.
 
   -> "v" and "p"
     -> have the same list creation process, for 2 lines

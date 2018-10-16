@@ -1,32 +1,13 @@
 ===============================================================================
-=    W e l c o m e   t o   t h e   V I M 2 t o r                              = 
+=    W e l c o m e   t o   t h e   V I 2 t o r                                = 
 ===============================================================================
+
+  "vimtutor" is an excellent idea, whilst also being full to the brim with 
+  some crappy ass tutorial text. Here's my version:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-== "w" then "x" ==
-
----> It's jjust a fflesh wwound.
-
----> This bbuilding has tto be aat lleast three ttimes bbigger tthan tthis!
-
-== "w", "l" and "x" ==
-
---->  I amm sserious. Andd donn't ccall mee SShirley.
-
----> I'mm juust oone stoomach fllu aaway from mmy goal wweigght.
-
-== "e" and "x" ==
-
----> I'mm about too doo too youu what Limpp Bizkit didd too musicc in thee latee 90's.
-
----> Greaterr good? II amm your wifee! I'm thee greatestt goodd you'ree ever gonnaa gett!
-
-== "e", "j" and "x" ==
-
----> Wee gett thee warheeadd andd we hooldd thee worrldd ransoomm for Onee Millionn Dollaarss!
-
----> LLeavee thee gunn. Takke thhe cannoolii.
+== "x" Deletion ==
 
 ---> The ccow jumpedd ovverr thhe mooon.
 
@@ -129,8 +110,6 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 == "/search-term"   searches ==
-== :set hls         highlight search ==
-== :set incsearch   update results per character ==
 == :set hls         set high light search on  ==
 == :set nohlsearch  set high light search off ==
 == "\csearch-term"  ignore case, for search-term ==
