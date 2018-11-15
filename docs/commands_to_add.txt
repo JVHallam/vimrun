@@ -26,9 +26,46 @@ What are the essentials of vim:
   Appending:
     -> a and A, could also be a pretty useful thing to do with w,e,b movement
 
-  Copy and paste:
+  Scrolling:
+    Scrolling is actuall pretty useful to know:
+      -> Ctrl - U to scroll up    half a page
+
+      -> Ctrl - D to scroll down  half a page
+
+  repeat command .:
+    -> if you hit '.' it repeats the previous command typed in. Try dft then . on the next line
+    -> t his is a line t ha t is full of t he t hings t o wri t e
+
+  Joining:
+    -> By hitting "J" (capital j) you join the end of this line to the next one.
+       It also adds in a space
+    
+    -> This
+       is
+       an
+       example
+       for the
+       capital J command.
+
+
+  Macros:
+    -> q<letter> starts registering a marco to a key
+    -> pressing q again stop recording the macro
+    -> @<letter> executes the macro again
+
+    -> Make the following lines all match the first
+
+  #include <stdio.h>
+  string.h
+  stdlib.h
+  stddint.h
+  unistd.h
 
   Searching + Replacement:
+    Find:
+    -> f<letter> to find the first occurence of a letter in a line.
+    -> df<letter> delete up to the next instance of <letter>
+    
     -> I replacement is good way to encrypt the file. Replace a bunch of characters, with a bunch of others
     -> That way, the user is forced to do global and local replacements, so that they can decrypt the exercise
     -> They could have to search for the unlock keys in the text?
@@ -76,3 +113,8 @@ Ideas for the new file:
   -> :r <file_name>
     -> Don't know exactly how useful this command is
 
+Additional movement:
+  CTRL + o 
+  CTRL + i 
+  These move you around, with regards to previous places you've been. This make shit so much easier to get 
+  back to the work that you were previously doing.

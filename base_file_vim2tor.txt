@@ -193,3 +193,21 @@
       b)
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+            MACROS            
+
+== "q -> a " to start recording a macro bound to 'a' ==
+== press any keys you want to be in the macro ==
+== press 'q' to stop recording the macro ==
+
+Record here:
+
+-->  stdio.h
+==>  #include <stdio.h>
+
+Execute here:
+
+-->  string.h
+-->  stdlib.h
+-->  stdint.h
+-->  unistd.h
