@@ -4,25 +4,35 @@
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-== "w" then "x" ==
+          MOVEMENT AND DELETION
+
+
+          == "w" then "x" ==
+
 
 ---> It's jjust a fflesh wwound.
 
 ---> This bbuilding has tto be aat lleast three ttimes bbigger tthan tthis!
 
-== "w", "l" and "x" ==
+
+          == "w", "l" and "x" ==
+          
 
 --->  I amm sserious. Andd donn't ccall mee SShirley.
 
 ---> I'mm juust oone stoomach fllu aaway from mmy goal wweigght.
 
-== "e" and "x" ==
+
+          == "e" and "x" ==
+
 
 ---> I'mm about too doo too youu what Limpp Bizkit didd too musicc in thee latee 90's.
 
 ---> Greaterr good? II amm your wifee! I'm thee greatestt goodd you'ree ever gonnaa gett!
 
-== "e", "j" and "x" ==
+
+          == "e", "j" and "x" ==
+
 
 ---> Wee gett thee warheeadd andd we hooldd thee worrldd ransoomm for Onee Millionn Dollaarss!
 
@@ -32,14 +42,18 @@
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-== "i" Insertion ==
+          INSERTION
+
+          == "i" ==
 
 ---> There is text misng this .
 ---> There is some text missing from this line.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-== "A" Appending the end of lines ==
+          APPENDING
+
+          == "A" ==
 
 ---> There is some text missing from th
      There is some text missing from this line.
@@ -48,26 +62,33 @@
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-== "dw" word deletion ==
+          DELETE WORD
+
+          == "d,w" ==
 
 ---> There are a some words fun that don't belong paper in this sentence.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
-== "d$" line deletion ==
+          DELETE TO LINE END
+
+          == "d,$" ==
 
 ---> Somebody typed the end of this line twice. end of this line twice.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~      
 
-== "number d motion" multiple word deletion ==
+          DELETE MULTIPLE
+
+          == "number, d, w" ==
 
 --->  this ABC DE line FGHI JK LMN OP of words is Q RS TUV cleaned up.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-== "dd"         line deletion ==
-== "number dd"  multiline deletion ==
+          DELETE DA WHOLE LINE
+
+          == "d,d" ==
 
 --->  1)  Roses are red,
 --->  2)  Mud is fun,
@@ -79,13 +100,17 @@
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-== "u" to undo, "U" to undo the line ==
+          UNDO
+
+          == "u" ==
 
 --> Fiix the errors oon thhis line and reeplace them witth undo.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-== "p" for put it here ==
+          PASTE AFTER DELETION
+
+          == "p" ==
 
 ---> d) Can you learn too?
 ---> b) Violets are blue,
@@ -94,27 +119,36 @@
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-== "r character" to replace under cursor ==
+          REPLACE SINGLE
+
+          == "r, <any key>" ==
 
 --->  Whan this lime was tuoed in, someone presswd some wrojg keys!
 --->  When this line was typed in, someone pressed some wrong keys!
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-== "c motion" to delete and start changing ==
+          CUT WORD AND REPLACE
+
+          == "c, e" ==
 
 ---> This lubw has a few wptfd that mrrf changing usf the change operator.
 ---> This line has a few words that need changing using the change operator.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-== "number c motion" to change more, $ for the end of the line ==
-== "C (shift + c)   - Replace the line from cursor onward ==
+          CUT TO LINE END
+
+          == "C" or "SHIFT + c" ==
 
 ---> The end of this line needs some help to make it like the second.
----> The end of this line needs to be corrected using the  c$  command.
+---> The end of this line needs to be corrected using the  C  command.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+          GLOBAL GO
+
+          == "g" ==
 
 == "gg"       to jump to the top of the file ==
 
@@ -127,6 +161,10 @@
 --> Jump to the top, to the bottom, then back to this line.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+          SEARCH
+
+          == "/term" ==
 
 == "/search-term"   searches ==
 == :set hls         highlight search ==
@@ -150,7 +188,10 @@
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-== ":s/old/new/"    substitute old for new for first occurence in this line ==
+          SUBSITUTE SEARCH
+
+          == ":s/old/new" ==
+
 == ":s/old/new/g"   substitute but for every occurence in this line ==
 == ":%s/old/new/g"  substitute for every occurence globally ==
 == "#,#s/old/new/g" substitute for every occurence in lines # to # ==
@@ -161,33 +202,37 @@
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-== "o"  open-below ==
+            OPEN
+              
+            == "o" ==
 
-== "O"  open-above ==
-
----> After typing o, you might as well right "below", below this line.
+---> After typing o, you might as well right "below".
 ---> MIDDLE
----> After typing O on this line, you might aswell right "above", above this line.
+---> After typing O (shift + o) on this line, you might aswell right "above".
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-== "a"  append after cursor ==
+            APPEND
+
+            == "a" ==
 
 ---> This li will allow you to pract appendi text to a line.
 ---> This line will allow you to practice appending text to a line.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-== "R"  To start replacing ==
+            REPLACE AND OVERRIDE
 
+            == "R" ==
+  
 ---> Adding 123 to xxx gives you xxx.
 ---> Adding 123 to 456 gives you 579.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-== y                yank ==
-== number y motion  yank more ==
-== p                paste ==
+            YANK
+
+            == "y" ==
 
 --->  a) this is the first item.
       b)
@@ -211,3 +256,36 @@ Execute here:
 -->  stdlib.h
 -->  stdint.h
 -->  unistd.h
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+            JOIN
+
+            == "J" or "shift + j" ==
+  
+--> This
+    is
+    an
+    example
+    for the
+    capital J command.
+
+--> Join this
+      
+    line
+    together
+    too.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+            FIND
+
+== "f -> <key>" to find the next instance of a key in a line ==
+
+--> This is a line where if you use the f,x command, you'll jump to that x or this x 
+
+--> Try d,f,x to delete each part of this line, up to each x instance in the line. 
+
+--> place your cursor there, and delete --> | xxxxxxxxxxxxxxxxxxxxxxxxx | <-- to here 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
