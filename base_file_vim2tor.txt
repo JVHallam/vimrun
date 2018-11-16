@@ -279,7 +279,7 @@ Execute here:
 
             FIND
 
-== "f -> <key>" to find the next instance of a key in a line ==
+            == "f,<key>" ==
 
 ==> "d,f,|" delete every character from the cursor up to the next instance of "|"
 
