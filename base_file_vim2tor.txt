@@ -173,16 +173,9 @@
           == "/term" ==
 
 == "/search-term"   searches ==
-== :set hls         highlight search ==
-== :set incsearch   update results per character ==
-== :set hls         set high light search on  ==
-== :set nohlsearch  set high light search off ==
 == "\csearch-term"  ignore case, for search-term ==
-== :set ic          ignore case, from here on out ==
-== "CTRL-O"         return to whence you came, sends the cursor back to previous locations==
-== "CTRL-I"         return to the place you're returning from, send the cursor back to future locations ==
-== "n"              next occurence ==
-== "N"              Not the next, but the previous occurence ==
+== "n" -> Forwards  ==
+== Backwards <- "N" ==
 
 ---> When the guys were writing this tutorial, they used the word "errroor" 
      to empahsise the use of the search tool. I believe that just using
@@ -288,9 +281,7 @@ Execute here:
 
 == "f -> <key>" to find the next instance of a key in a line ==
 
---> This is a line where if you use the f,x command, you'll jump to that x or this x 
-
---> Try d,f,x to delete each part of this line, up to each x instance in the line. 
+==> "d,f,|" delete every character from the cursor up to the next instance of "|"
 
 --> place your cursor there, and delete --> | xxxxxxxxxxxxxxxxxxxxxxxxx | <-- to here 
 
