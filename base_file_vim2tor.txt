@@ -55,6 +55,30 @@
 
           == "z,t" ==
 
+
+
+
+
+
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+          Cursor Screen Location Jumping
+
+          == "H", "M", "L" ==
+
+          SHIFT + H -> "Highest"  -> Jump to TOP line
+
+
+          SHIFT + M -> "Middle"   -> Jump to MIDDLE line
+
+          
+          SHIFT + L -> "Lowest"   -> Jump to BOTTOM line
+
+
+
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
           APPENDING
