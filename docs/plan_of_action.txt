@@ -1,3 +1,10 @@
+What i could do:
+  Reformat it to be:
+    => place cursor on | <place> |
+    => press | <key> -> <key> -> <key> |
+
+  Redo the whole situation to be a shu-ha-ri situation
+
 The key focus, for the most part, will be on movement.
 The reason people use vim is that it's quicker to move in anyways, then they start
 using all the powerful vim chords.

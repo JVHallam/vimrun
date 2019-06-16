@@ -5,6 +5,12 @@ How to make the user feel good:
 
   percentage of the accuracy
 
+Shu-ha-ri:
+  => Tell the users what to press, in what order
+  => Then offer them an explanation
+  => Add in the option to run the script, without the tutorial details
+  => Do - think - master, not tell-master-do
+
 What are the essentials of vim:
   movement:
     hjlk -> They're so essential and needed that you learn them regardless.
@@ -17,6 +23,20 @@ What are the essentials of vim:
       -> Chaining w,e into b whilst editing with x
         -> Go along one line, from left to right,
         -> Go along the next line, from right to left, using only b
+
+  Faster movement:
+    :<line_number>
+
+    Just mashing hjkl to move around is okay, but not the best.
+    I should attempt to teach myself to move around faster, using the line numbers.
+
+  CTRL + H, M, L:
+    These seem pretty redundant if i'm using :<line_number> to navigate.
+    :line can do the same job, but with more precision.
+
+  Return to a previous point in time:
+    This requires knowledge of the "jump list" feature
+    CTRL SHIFT O
 
   Correction:
     -> u, U -> these are essential, don't really need addressing
@@ -68,7 +88,20 @@ What are the essentials of vim:
 
   Autocomplete:
     -> CTRL + P to autocomplete a word, have a quick section on the usage of that
-    
+
+There needs to be a section on the vim console:
+  Searching:
+    the /\cerrroor bit
+
+  Replacement:
+    :s/thee/the/g
+
+    :%s/thee/the/g
+
+  Deletion: 
+    :g/word/d
+      Delete all lines with word in it
+
 
 Ideas for the new file:
   The file starts off as absolute giberish
@@ -93,3 +126,5 @@ Additional movement:
   CTRL + i 
   These move you around, with regards to previous places you've been. This make shit so much easier to get 
   back to the work that you were previously doing.
+
+

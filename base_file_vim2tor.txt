@@ -267,6 +267,7 @@
 == "q -> a " to start recording a macro bound to 'a' ==
 == press any keys you want to be in the macro ==
 == press 'q' to stop recording the macro ==
+== press '@, a' to use the marco bound to the a key
 
 Record here:
 
