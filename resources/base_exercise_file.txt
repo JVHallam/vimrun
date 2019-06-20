@@ -1,6 +1,9 @@
-==============================================================================
-=    W e l c o m e   t o   t h e   V I M 2 t o r                              = 
-===============================================================================
+
+
+           V I M R U N                               
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
            (  w, x  ) 
@@ -18,9 +21,11 @@
           (  e, x  )
 
 
-===> Imm about too doo too youu what Limpp Bizkit didd too musicc inn the latee 90s.
+===> Imm about too doo too youu what Limpp Bizkit didd too musicc inn 
+     the latee 90s.
 
-===> Greaterr good? II amm your wifee! Imm the greatestt goodd youree ever gonnaa gett!
+===> Greaterr good? II amm your wifee! Imm the greatestt goodd youree ever 
+     gonnaa gett!
 
 ===> The coww jumpedd overr the moonn.
 
@@ -169,8 +174,9 @@
      Also, it's an error for you not to use hlsearch, it makes life easier
      when searching through a crappy block of text, to find instances of
      errors.
-     Errors are natural part of programming. The best programmer isn't the one
-     who can just avoid making errors, but one who can fix them when they arise.
+     Errors are natural part of programming. The best programmer isn't the 
+     one who can just avoid making errors, but one who can also fix them 
+     when they arise.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
