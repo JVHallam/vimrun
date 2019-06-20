@@ -6,3 +6,33 @@ To do
   * > x, y, z <= Press the keys x, then y, then z
   * --> Line on which to do it
   * ==> The expected end result
+
+--> Example
+==> The practise line
+
+
+Immediates:
+* Change --> to ==>
+* --> Expected output
+* ==> Exercise line
+* == Command string ==
+* You don't need to name the sections, remove all titles
+* gg, G, but also add CTRL-O
+* remove the number G and CTRL-G parts
+* The search section is just far too fucking long
+* == /error => error
+* == /\cerror => ErRoR || error
+* == n, forwards, errror, errror, error
+* == Backwards N
+* Remove usages of w, l and x, to just be w and x
+* Remove usages of e,j,x to just be e,x
+* Remove the section screen jumping
+* Add the section on using ":line" to jump
+* Swap the A exercises around 
+* JOIN => Does it need to be SHIFT + j?
+* Only one command per section
+
+* CHANGE THE NAME OF THE FUCKING PROJECT!
+
+
+* ADd the ideas of the #,# line combo tool

@@ -1,291 +1,282 @@
-===============================================================================
+==============================================================================
 =    W e l c o m e   t o   t h e   V I M 2 t o r                              = 
 ===============================================================================
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-          MOVEMENT AND DELETION
-
-
-          == "w" then "x" ==
+           (  w, x  ) 
 
 
----> It's jjust a fflesh wwound.
+===> Its jjust a fflesh wwound.
 
----> This bbuilding has tto be aat lleast three ttimes bbigger tthan tthis!
+===> This bbuilding has tto be aat lleast three ttimes bbigger tthan tthis!
 
-
-          == "w", "l" and "x" ==
-          
-
---->  I amm sserious. Andd donn't ccall mee SShirley.
-
----> I'mm juust oone stoomach fllu aaway from mmy goal wweigght.
-
-
-          == "e" and "x" ==
-
-
----> I'mm about too doo too youu what Limpp Bizkit didd too musicc in thee latee 90's.
-
----> Greaterr good? II amm your wifee! I'm thee greatestt goodd you'ree ever gonnaa gett!
-
-
-          == "e", "j" and "x" ==
-
-
----> Wee gett thee warheeadd andd we hooldd thee worrldd ransoomm for Onee Millionn Dollaarss!
-
----> LLeavee thee gunn. Takke thhe cannoolii.
-
----> The ccow jumpedd ovverr thhe mooon.
+===>  I am sserious. AAnd dont ccall mme SShirley.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-          INSERTION
 
-          == "i" ==
-
----> There is text misng this .
----> There is some text missing from this line.
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-          SCROLL SCREEN
-
-          == "z,t" ==
+          (  e, x  )
 
 
+===> Imm about too doo too youu what Limpp Bizkit didd too musicc inn the latee 90s.
 
+===> Greaterr good? II amm your wifee! Imm the greatestt goodd youree ever gonnaa gett!
 
-
-
-
-
+===> The coww jumpedd overr the moonn.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-          Cursor Screen Location Jumping
-
-          == "H", "M", "L" ==
-
-          SHIFT + H -> "Highest"  -> Jump to TOP line
-
-
-          SHIFT + M -> "Middle"   -> Jump to MIDDLE line
 
           
-          SHIFT + L -> "Lowest"   -> Jump to BOTTOM line
+          (  i  )
 
 
+===> There is text misng this .
+===> There is some text missing from this line.
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-          APPENDING
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-          == "A" ==
 
----> There is some text missing from th
+          (  A  )
+
+
+===> There is some text missing from th
      There is some text missing from this line.
----> There is also some text miss
+===> There is also some text miss
      There is also some text missing here.
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-          DELETE WORD
 
-          == "d,w" ==
+          (  d,w  )
 
----> There are a some words fun that don't belong paper in this sentence.
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- 
-          DELETE TO LINE END
+===> There XXX some useless XXX blocks in this XXX line.
 
-          == "d,$" ==
+===> There are a some words fun that don't belong paper in this line.
 
----> Somebody typed the end of this line twice. end of this line twice.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+          (  z,t  )
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+          (  d,$  )
+
+
+===> Somebody typed the end of this line twice. end of this line twice.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~      
 
-          DELETE MULTIPLE
 
-          == "number, d, w" ==
+          (  number, d, w  )
 
---->  this ABC DE line FGHI JK LMN OP of words is Q RS TUV cleaned up.
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-          DELETE DA WHOLE LINE
-
-          == "d,d" ==
-
---->  1)  Roses are red,
---->  2)  Mud is fun,
---->  3)  Violets are blue,
---->  4)  I have a car,
---->  5)  Clocks tell time,
---->  6)  Sugar is sweet
---->  7)  And so are you.
+===>  this 2DW XXX line 4DW XXX XXX XXX of words is 3DW XXX XXX cleaned up.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-          UNDO
 
-          == "u" ==
+          (  d,d  )
 
---> Fiix the errors oon thhis line and reeplace them witth undo.
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-          PASTE AFTER DELETION
-
-          == "p" ==
-
----> d) Can you learn too?
----> b) Violets are blue,
----> c) Intelligence is learned,
----> a) Roses are red,
+===>  1)  Roses are red,
+===>  2)  Mud is fun,
+===>  3)  Violets are blue,
+===>  4)  I have a car,
+===>  5)  Clocks tell time,
+===>  6)  Sugar is sweet
+===>  7)  And so are you.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-          REPLACE SINGLE
 
-          == "r, <any key>" ==
+          (  u  )
 
---->  Whan this lime was tuoed in, someone presswd some wrojg keys!
---->  When this line was typed in, someone pressed some wrong keys!
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-          CUT WORD AND REPLACE
-
-          == "c, e" ==
-
----> This lubw has a few wptfd that mrrf changing usf the change operator.
----> This line has a few words that need changing using the change operator.
+===> Fiix the problemms oon thhis line and reeplace them witth undo.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-          CUT TO LINE END
 
-          == "C" or "SHIFT + c" ==
+          (  p  )
 
+
+===> d) Can you learn too?
+===> b) Violets are blue,
+===> c) Intelligence is learned,
+===> a) Roses are red,
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+          (  r, <any key>  )
+
+
+===>  Whan this lime was tuoed in, someone presswd some wrojg keys!
+===>  When this line was typed in, someone pressed some wrong keys!
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+          (  c, e  )
+
+
+===> This lubw has a few wptfd that mrrf changing usf the change operator.
+===> This line has a few words that need changing using the change operator.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+          (  C  )
+
+
+===> The end of this line needs to be corrected using the  C  command.
 ---> The end of this line needs some help to make it like the second.
----> The end of this line needs to be corrected using the  C  command.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-          GLOBAL GO
 
-          == "g" ==
+          ( CTRL + O  -> Return to last spot )
 
-== "gg"       to jump to the top of the file ==
+          ( gg        -> Top                 )
 
-== "G"        To jump to the end of the file ==
+          ( G         -> Bottom              )
 
-== "CTRL-G"   to show file location   ==
 
-== "number G" to jump to that line    ==
-
---> Jump to the top, to the bottom, then back to this line.
+===> Jump to the top, to the bottom, then back to this line.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-          SEARCH
 
-          == "/term" ==
+          (  /term  )
+(  :hls           -> high light search  )
 
-== "/search-term"   searches ==
-== "\csearch-term"  ignore case, for search-term ==
-== "n" -> Forwards  ==
-== Backwards <- "N" ==
+(  /error         -> error              )
 
----> When the guys were writing this tutorial, they used the word "errroor" 
+(  /\cerrorr      -> ErRoR  && error    )
+
+(  n              -> Forwards           )
+
+(  N              -> Backwards          )
+
+===> When the guys were writing this tutorial, they used the word "errroor" 
      to empahsise the use of the search tool. I believe that just using
-     "errroor" and not throwing in "Errroor" and "eRRROOR" was a mistake.
+     "errroor" and not throwing in "Errroor" and "eRRROOR" was an error.
      You're not forced to try and use the ignore case setting at this point.
-     Also, it's an errroor for you not to use hlsearch, it makes life easier
+     Also, it's an error for you not to use hlsearch, it makes life easier
      when searching through a crappy block of text, to find instances of
-     errroors.
+     errors.
+     Errors are natural part of programming. The best programmer isn't the one
+     who can just avoid making errors, but one who can fix them when they arise.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-          SUBSITUTE SEARCH
 
-          == ":s/old/new" ==
+          (  :s/old/new/g  )
 
-== ":s/old/new/g"   substitute but for every occurence in this line ==
-== ":%s/old/new/g"  substitute for every occurence globally ==
-== "#,#s/old/new/g" substitute for every occurence in lines # to # ==
-== ":s/old/new/gc"  substitue but with a prompt for each one ==
-== ":s/\cold/new/"  replace old, but ignoring case
 
----> thee best time to see thee flowers is in thee spring.
+---> :%s/thee/the/g
+
+===> thee best time to see thee flowers is in thee spring.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-            OPEN
-              
-            == "o" ==
 
----> After typing o, you might as well right "below".
+          (  :s/\cold/new/  )
+
+
+---> :%s/\cthee/the/g
+
+===> thEE best time to see thee flowers is in ThEe spring.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+            (  o  )
+
+
+===> After typing o, you might as well right "below".
 ---> MIDDLE
----> After typing O (shift + o) on this line, you might aswell right "above".
+===> After typing O (shift + o) on this line, you might aswell right "above".
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-            APPEND
 
-            == "a" ==
+            (  a  )
 
----> This li will allow you to pract appendi text to a line.
----> This line will allow you to practice appending text to a line.
+
+===> This li will allow you to pract appendi text to a line.
+===> This line will allow you to practice appending text to a line.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-            REPLACE AND OVERRIDE
 
-            == "R" ==
+            (  R  )
+
   
----> Adding 123 to xxx gives you xxx.
----> Adding 123 to 456 gives you 579.
+===> Adding 123 to xxx gives you xxx.
+===> Adding 123 to 456 gives you 579.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-            YANK
 
-            == "y" ==
+            (  y, p  )
 
---->  a) this is the first item.
+---> Y the line, then p
+
+===>  a) this is the first item.
       b)
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-            MACROS            
 
-== "q -> a " to start recording a macro bound to 'a' ==
-== press any keys you want to be in the macro ==
-== press 'q' to stop recording the macro ==
-== press '@, a' to use the marco bound to the a key
+            (  q macros  )
+
+
+--> q, a, 0, ce, *, q
+--> Move to the next line
+--> @, a
 
 Record here:
 
--->  stdio.h
-==>  #include <stdio.h>
+--> This
+
+to
+
+* This
 
 Execute here:
 
--->  string.h
--->  stdlib.h
--->  stdint.h
--->  unistd.h
+--> This
+--> Is
+--> A
+--> Star
+--> Bullet
+--> List
+
+Record here:
+
+===>  stdio.h
+
+to 
+
+===>  #include <stdio.h>
+
+Execute here:
+
+===>  string.h
+===>  stdlib.h
+===>  stdint.h
+===>  unistd.h
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-            JOIN
 
-            == "J" or "shift + j" ==
+            (  J  )
+            
   
 --> This
     is
@@ -302,12 +293,20 @@ Execute here:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-            FIND
 
-            == "f,<key>" ==
+            (  f,<key>  )
 
-==> "d,f,|" delete every character from the cursor up to the next instance of "|"
 
---> place your cursor there, and delete --> | xxxxxxxxxxxxxxxxxxxxxxxxx | <-- to here 
+===> ( f, . ) will jump you from the start of this line to the end.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+            (  d, f, <key>  )
+
+
+===> This is a line with |XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX|a huge block in it.
+===> This is a line with a huge block in it.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
