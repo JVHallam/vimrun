@@ -1,0 +1,8 @@
+To do
+===
+
+* come up with a system, so that i can remove ALL explanations
+  * e.g. | x | <= Place cursor here
+  * > x, y, z <= Press the keys x, then y, then z
+  * --> Line on which to do it
+  * ==> The expected end result
