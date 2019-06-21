@@ -119,10 +119,14 @@
 
 ===> Fiix the problemms oon thhis line and reeplace them witth undo.
 
+
+          ( CTRL + R )
+
+
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-          (  p  )
+          ( dd, p  )
 
 
 ===> d) Can you learn too?
@@ -173,19 +177,19 @@
 
 
           (  /term  )
-(  :hls           -> high light search  )
+(  set :hls       -> high light search  )
 
 (  /error         -> error              )
 
-(  /\cerrorr      -> ErRoR  && error    )
+(  /\cerror      -> ErRoR  && error    )
 
 (  n              -> Forwards           )
 
 (  N              -> Backwards          )
 
-===> When the guys were writing this tutorial, they used the word "errroor" 
+===> When the guys were writing this tutorial, they used the word "error" 
      to empahsise the use of the search tool. I believe that just using
-     "errroor" and not throwing in "Errroor" and "eRRROOR" was an error.
+     "error" and not throwing in "eRrOrr" and "Error" was an error.
      You're not forced to try and use the ignore case setting at this point.
      Also, it's an error for you not to use hlsearch, it makes life easier
      when searching through a crappy block of text, to find instances of
@@ -200,7 +204,9 @@
           (  :s/old/new/g  )
 
 
----> :%s/thee/the/g
+---> /thee
+
+---> :s/thee/the/g
 
 ===> thee best time to see thee flowers is in thee spring.
 
@@ -209,6 +215,7 @@
 
           (  :s/\cold/new/  )
 
+---> /\cthee
 
 ---> :%s/\cthee/the/g
 
@@ -217,7 +224,7 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-            (  o  )
+            (  o || O  )
 
 
 ===> After typing o, you might as well right "below".
@@ -249,8 +256,8 @@
 
 ---> Y the line, then p
 
-===>  a) this is the first item.
-      b)
+===> a) this is the first item.
+     b)
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -258,7 +265,7 @@
             (  q macros  )
 
 
---> q, a, 0, ce, *, q
+--> q, a, 0, ce, *, <ESC>, q
 --> Move to the next line
 --> @, a
 
