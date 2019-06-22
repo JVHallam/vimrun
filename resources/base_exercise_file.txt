@@ -181,7 +181,7 @@
 
 (  /error         -> error              )
 
-(  /\cerror      -> ErRoR  && error    )
+(  /\cerror       -> ErRoR  && error    )
 
 (  n              -> Forwards           )
 
