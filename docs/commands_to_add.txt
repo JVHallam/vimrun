@@ -1,50 +1,4 @@
-How to make the user feel good:
-  Time trails
-
-  Points rating systems
-
-  percentage of the accuracy
-
-Shu-ha-ri:
-  => Tell the users what to press, in what order
-  => Then offer them an explanation
-  => Add in the option to run the script, without the tutorial details
-  => Do - think - master, not tell-master-do
-
-Text Objects:
-  These are actually the final step to really getting to grips with vim.
-  These are lesser known, but greater to use than motions.
-
-  < command > < i / a > < text object >
-
-  i => inner
-  a => outer
-
-  p => paragraph
-
-    This right here.
-    Is an example.
-    Of what a paragraph looks like.
-
-    This is not part of the other paragraph.
-
-  ", ', ` => strings surrounded by those types of quotes "string"
-  (, [, { => brackets ( bracket area )
-  t => a tag block <tag><tag>
-  <, > => a single tag <tag>
-
-
-  You can do things like:
-    cit => change inner tag <tag></tag> to start editing inside of that
-
-    <This> This is an html tag </This>
-
-    dip => delete inner paragraph
-
-    vat => to select a tag block ( good for showing the entire tag block )
-
 What are the essentials of vim:
-
   #,#:command:
     This is selecting a block of text by line numbers.
     Pretty damned useful for deleting, copying, indenting blocks of text.
@@ -54,10 +8,6 @@ What are the essentials of vim:
       -> Ctrl - U to scroll up    half a page
 
       -> Ctrl - D to scroll down  half a page
-
-  repeat command .:
-    -> if you hit '.' it repeats the previous command typed in. Try dft then . on the next line
-    -> t his is a line t ha t is full of t he t hings t o wri t e
 
   Chords and multipliers:
     -> replacement, deletion and visual mode are fantastic ways of getting used to the chords involved
