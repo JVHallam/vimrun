@@ -21,7 +21,7 @@
 
 ==> This bbuilding has tto be aat lleast three ttimes bbigger tthan tthis!
 
-==>  I am sserious. AAnd dont ccall mme SShirley.
+==> I am sserious. AAnd dont ccall mme SShirley.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -30,10 +30,10 @@
 
 
 ==> Imm about too doo too youu what Limpp Bizkit didd too musicc inn 
-     the latee 90s.
+    the latee 90s.
 
 ==> Greaterr good? II amm your wifee! Imm the greatestt goodd youree ever 
-     gonnaa gett!
+    gonnaa gett!
 
 ==> The coww jumpedd overr the moonn.
 
@@ -67,10 +67,11 @@
           (  A  )
 
 
+--> There is also some text missing here.
 ==> There is also some text miss
-     There is also some text missing here.
+
+--> There is some text missing from this line.
 ==> There is some text missing from th
-     There is some text missing from this line.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -140,8 +141,8 @@
           (  r, <any key>  )
 
 
-==>  Whan this lime was tuoed in, someone presswd some wrojg keys!
-==>  When this line was typed in, someone pressed some wrong keys!
+==> Whan this lime was tuoed in, someone presswd some wrojg keys!
+==> When this line was typed in, someone pressed some wrong keys!
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -158,8 +159,8 @@
           (  C  )
 
 
-==> The end of this line needs to be corrected using the  C  command.
 --> The end of this line needs some help to make it like the second.
+==> The end of this line needs to be corrected using the  C  command.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -190,15 +191,15 @@
 (  :nohls         -> Clear highlights   )
 
 ==> When the guys were writing this tutorial, they used the word "error" 
-     to empahsise the use of the search tool. I believe that just using
-     "error" and not throwing in "eRrOrr" and "Error" was an error.
-     You're not forced to try and use the ignore case setting at this point.
-     Also, it's an error for you not to use hlsearch, it makes life easier
-     when searching through a crappy block of text, to find instances of
-     errors.
-     Errors are natural part of programming. The best programmer isn't the 
-     one who can just avoid making errors, but one who can also fix them 
-     when they arise.
+    to empahsise the use of the search tool. I believe that just using
+    "error" and not throwing in "eRrOrr" and "Error" was an error.
+    You're not forced to try and use the ignore case setting at this point.
+    Also, it's an error for you not to use hlsearch, it makes life easier
+    when searching through a crappy block of text, to find instances of
+    errors.
+    Errors are natural part of programming. The best programmer isn't the 
+    one who can just avoid making errors, but one who can also fix them 
+    when they arise.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -230,7 +231,7 @@
 
 
 ==> After typing o, you might as well right "below".
---> MIDDLE
+==> MIDDLE
 ==> After typing O (shift + o) on this line, you might aswell right "above".
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -239,8 +240,8 @@
             (  a  )
 
 
+--> This line will allow you to practice appending text to a line.
 ==> This li will allow you to pract appendi text to a line.
-==> This line will allow you to practice appending text to a line.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -248,8 +249,8 @@
             (  R  )
 
   
+--> Adding 123 to 456 gives you 579.
 ==> Adding 123 to xxx gives you xxx.
-==> Adding 123 to 456 gives you 579.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -259,7 +260,7 @@
 --> Y the line, then p
 
 ==> a) this is the first item.
-     b)
+    b)
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -281,12 +282,12 @@ to
 
 Execute here:
 
---> This
---> Is
---> A
---> Star
---> Bullet
---> List
+==> This
+==> Is
+==> A
+==> Star
+==> Bullet
+==> List
 
 Record here:
 
@@ -309,14 +310,14 @@ Execute here:
             (  J  )
             
   
---> This
+==> This
     is
     an
     example
     for the
     capital J command.
 
---> Join this
+==> Join this
       
     line
     together
