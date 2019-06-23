@@ -9,7 +9,7 @@
            ( :line_number )
 
 
-===> :21
+==> :20
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -17,11 +17,11 @@
            (  w, x  ) 
 
 
-===> Its jjust a fflesh wwound.
+==> Its jjust a fflesh wwound.
 
-===> This bbuilding has tto be aat lleast three ttimes bbigger tthan tthis!
+==> This bbuilding has tto be aat lleast three ttimes bbigger tthan tthis!
 
-===>  I am sserious. AAnd dont ccall mme SShirley.
+==>  I am sserious. AAnd dont ccall mme SShirley.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -29,13 +29,13 @@
           (  e, x  )
 
 
-===> Imm about too doo too youu what Limpp Bizkit didd too musicc inn 
+==> Imm about too doo too youu what Limpp Bizkit didd too musicc inn 
      the latee 90s.
 
-===> Greaterr good? II amm your wifee! Imm the greatestt goodd youree ever 
+==> Greaterr good? II amm your wifee! Imm the greatestt goodd youree ever 
      gonnaa gett!
 
-===> The coww jumpedd overr the moonn.
+==> The coww jumpedd overr the moonn.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -43,8 +43,8 @@
           (  i  )
 
 
-===> There is text misng this .
-===> There is some text missing from this line.
+==> There is text misng this .
+==> There is some text missing from this line.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -67,9 +67,9 @@
           (  A  )
 
 
-===> There is also some text miss
+==> There is also some text miss
      There is also some text missing here.
-===> There is some text missing from th
+==> There is some text missing from th
      There is some text missing from this line.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -78,9 +78,9 @@
           (  d,w  )
 
 
-===> There XXX some useless XXX blocks in this XXX line.
+==> There XXX some useless XXX blocks in this XXX line.
 
-===> There are a some words fun that don't belong paper in this line.
+==> There are a some words fun that don't belong paper in this line.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -88,14 +88,14 @@
           (  d,$  )
 
 
-===> Somebody typed the end of this line twice. end of this line twice.
+==> Somebody typed the end of this line twice. end of this line twice.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~      
 
 
           (  number, d, w  )
 
-===>  this 2DW XXX line 4DW XXX XXX XXX of words is 3DW XXX XXX cleaned up.
+==>  this 2DW XXX line 4DW XXX XXX XXX of words is 3DW XXX XXX cleaned up.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -103,13 +103,13 @@
           (  d,d  )
 
 
-===>  1)  Roses are red,
-===>  2)  Mud is fun,
-===>  3)  Violets are blue,
-===>  4)  I have a car,
-===>  5)  Clocks tell time,
-===>  6)  Sugar is sweet
-===>  7)  And so are you.
+==>  1)  Roses are red,
+==>  2)  Mud is fun,
+==>  3)  Violets are blue,
+==>  4)  I have a car,
+==>  5)  Clocks tell time,
+==>  6)  Sugar is sweet
+==>  7)  And so are you.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -117,7 +117,7 @@
           (  u  )
 
 
-===> Fiix the problemms oon thhis line and reeplace them witth undo.
+==> Fiix the problemms oon thhis line and reeplace them witth undo.
 
 
           ( CTRL + R )
@@ -129,10 +129,10 @@
           ( dd, p  )
 
 
-===> d) Can you learn too?
-===> b) Violets are blue,
-===> c) Intelligence is learned,
-===> a) Roses are red,
+==> d) Can you learn too?
+==> b) Violets are blue,
+==> c) Intelligence is learned,
+==> a) Roses are red,
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -140,8 +140,8 @@
           (  r, <any key>  )
 
 
-===>  Whan this lime was tuoed in, someone presswd some wrojg keys!
-===>  When this line was typed in, someone pressed some wrong keys!
+==>  Whan this lime was tuoed in, someone presswd some wrojg keys!
+==>  When this line was typed in, someone pressed some wrong keys!
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -149,8 +149,8 @@
           (  c, e  )
 
 
-===> This lubw has a few wptfd that mrrf changing usf the change operator.
-===> This line has a few words that need changing using the change operator.
+==> This lubw has a few wptfd that mrrf changing usf the change operator.
+==> This line has a few words that need changing using the change operator.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -158,8 +158,8 @@
           (  C  )
 
 
-===> The end of this line needs to be corrected using the  C  command.
----> The end of this line needs some help to make it like the second.
+==> The end of this line needs to be corrected using the  C  command.
+--> The end of this line needs some help to make it like the second.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -171,7 +171,7 @@
           ( G         -> Bottom              )
 
 
-===> Jump to the top, to the bottom, then back to this line.
+==> Jump to the top, to the bottom, then back to this line.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -189,7 +189,7 @@
 
 (  :nohls         -> Clear highlights   )
 
-===> When the guys were writing this tutorial, they used the word "error" 
+==> When the guys were writing this tutorial, they used the word "error" 
      to empahsise the use of the search tool. I believe that just using
      "error" and not throwing in "eRrOrr" and "Error" was an error.
      You're not forced to try and use the ignore case setting at this point.
@@ -206,22 +206,22 @@
           (  :s/old/new/g  )
 
 
----> /thee
+--> /thee
 
----> :s/thee/the/g
+--> :s/thee/the/g
 
-===> thee best time to see thee flowers is in thee spring.
+==> thee best time to see thee flowers is in thee spring.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
           (  :s/\cold/new/  )
 
----> /\cthee
+--> /\cthee
 
----> :%s/\cthee/the/g
+--> :%s/\cthee/the/g
 
-===> thEE best time to see thee flowers is in ThEe spring.
+==> thEE best time to see thee flowers is in ThEe spring.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -229,9 +229,9 @@
             (  o || O  )
 
 
-===> After typing o, you might as well right "below".
----> MIDDLE
-===> After typing O (shift + o) on this line, you might aswell right "above".
+==> After typing o, you might as well right "below".
+--> MIDDLE
+==> After typing O (shift + o) on this line, you might aswell right "above".
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -239,8 +239,8 @@
             (  a  )
 
 
-===> This li will allow you to pract appendi text to a line.
-===> This line will allow you to practice appending text to a line.
+==> This li will allow you to pract appendi text to a line.
+==> This line will allow you to practice appending text to a line.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -248,17 +248,17 @@
             (  R  )
 
   
-===> Adding 123 to xxx gives you xxx.
-===> Adding 123 to 456 gives you 579.
+==> Adding 123 to xxx gives you xxx.
+==> Adding 123 to 456 gives you 579.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
             (  y, p  )
 
----> Y the line, then p
+--> Y the line, then p
 
-===> a) this is the first item.
+==> a) this is the first item.
      b)
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -290,18 +290,18 @@ Execute here:
 
 Record here:
 
-===>  stdio.h
+==>  stdio.h
 
 to 
 
-===>  #include <stdio.h>
+==>  #include <stdio.h>
 
 Execute here:
 
-===>  string.h
-===>  stdlib.h
-===>  stdint.h
-===>  unistd.h
+==>  string.h
+==>  stdlib.h
+==>  stdint.h
+==>  unistd.h
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -328,7 +328,7 @@ Execute here:
             (  f,<key>  )
 
 
-===> ( f, . ) will jump you from the start of this line to the end.
+==> ( f, . ) will jump you from the start of this line to the end.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -336,8 +336,8 @@ Execute here:
             (  d, f, <key>  )
 
 
-===> This is a line with |XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX|a huge block in it.
-===> This is a line with a huge block in it.
+--> This is a line with a huge block in it.
+==> This is a line with |XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX|a huge block in it.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -345,7 +345,7 @@ Execute here:
            (  d, a, p  )
 
 
---> Remove the lorem ipsum
+==> REMOVE LOREM
 
 
   This is a useful
@@ -360,7 +360,8 @@ Execute here:
   don't delete this.
 
 
---> Select and move an entire paragraph.
+==> ORDER TEXT
+
 
   This is the third paragraph.
   This goes at the bottom.
@@ -387,8 +388,8 @@ Execute here:
            (  c, i, s  )
 
 
---> This is a good sentence. This is a good sentence. This is a good sentence.
-==> This is a good sentence. xxx xxx xxx xxx xxx xxx. This is a good sentence.
+--> This is a sentence one. This is a sentence two. This is a sentence three. 
+==> This is a sentence one. XXX XXX XXX XXX XXX XX. This is a sentence three. 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -396,8 +397,8 @@ Execute here:
            (  v, a, s  )
 
 
---> This is a good sentence. This is a good sentence. This is a good sentence.
-==> This is a good sentence.
+--> This is a good sentence.This is a good sentence.This is a good sentence.
+==> This is a good sentence. 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -504,7 +505,7 @@ Execute here:
 
 
 --> <div> RIGHT </div>
-==> <bad> WRONG </bad>
+==> <div><bad> WRONG </bad></div>
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
