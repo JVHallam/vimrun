@@ -230,9 +230,15 @@
             (  o || O  )
 
 
-==> After typing o, you might as well right "below".
-==> MIDDLE
-==> After typing O (shift + o) on this line, you might aswell right "above".
+--> Top    ( o )
+--> Below
+--> Middle
+--> Above
+--> Bottom ( O ) 
+
+==> Top    ( o )
+==> Middle
+==> Bottom ( O )
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -250,17 +256,18 @@
 
   
 --> Adding 123 to 456 gives you 579.
-==> Adding 123 to xxx gives you xxx.
+==> Adding XXX to xxx gives you xxx.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-            (  y, p  )
+            (  Y, p  )
 
---> Y the line, then p
+--> First
+--> Second
+--> Third
 
-==> a) this is the first item.
-    b)
+==> First
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -272,15 +279,18 @@
 --> Move to the next line
 --> @, a
 
+
+
+
 Record here:
 
---> This
+==> This
 
-to
+To
 
 * This
 
-Execute here:
+Then:
 
 ==> This
 ==> Is
@@ -289,15 +299,18 @@ Execute here:
 ==> Bullet
 ==> List
 
-Record here:
+
+
+
+Record Here:
 
 ==>  stdio.h
 
-to 
+To 
 
 ==>  #include <stdio.h>
 
-Execute here:
+Then:
 
 ==>  string.h
 ==>  stdlib.h
@@ -389,8 +402,8 @@ Execute here:
            (  c, i, s  )
 
 
---> This is a sentence one. This is a sentence two. This is a sentence three. 
-==> This is a sentence one. XXX XXX XXX XXX XXX XX. This is a sentence three. 
+--> This is sentence one. This is sentence two. This is sentence three. 
+==> This is sentence one. XXX XXX XXX XXX XXXX. This is sentence three. 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -398,7 +411,7 @@ Execute here:
            (  v, a, s  )
 
 
---> This is a good sentence.This is a good sentence.This is a good sentence.
+--> This is a good sentence. This is a good sentence. This is a good sentence.
 ==> This is a good sentence. 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
