@@ -355,6 +355,22 @@ Then:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+          
+            ( { or } )
+
+
+  With the { and } operators.
+  You can quickly jump through paragraphs of text.
+
+  It's a super useful operator.
+
+  Personally, i'm quite lazy. Therefore,
+  it's so much easier for me to bash the 
+  } key repeatedly, so that i can move through text
+  instead of using the jump queue.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
            (  d, a, p  )
 
@@ -389,6 +405,16 @@ Then:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+           ( ( and ) )
+
+  This is a sentence.
+  This is also
+  a sentence.
+  You can jump through them using the ( and ) keys.
+
+  They're super useful keys, especially when you're being super lazy.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
            (  d, a, s  )
 
