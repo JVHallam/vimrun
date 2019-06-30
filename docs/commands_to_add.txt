@@ -1,14 +1,4 @@
 What are the essentials of vim:
-  Tabbing:
-    gt and gT 
-
-    * If we break the application into page, we can use tabs
-    * movement motions
-    * editing motions
-    * general editing
-    * idk
-    * text-objects
-
   #,#:command:
     This is selecting a block of text by line numbers.
     Pretty damned useful for deleting, copying, indenting blocks of text.
@@ -19,16 +9,14 @@ What are the essentials of vim:
 
       -> Ctrl - D to scroll down  half a page
 
+      For the time being, it's CTRL + f, CTRL + u
+
   Chords and multipliers:
     -> replacement, deletion and visual mode are fantastic ways of getting used to the chords involved
 
   File management:  
-    -> This could be a bonus, level 2 sort of situation
-    -> file exploration using the :Sex command
+    -> file exploration using :Tex
     -> split screening
-    -> tabs
-      -> gt tab switching
-      -> copying and pasting from one file to another
     -> splits into tabs:
       -> ctrl+w, shift+t
 
