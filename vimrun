@@ -1,5 +1,6 @@
 #!/bin/bash
 
-filename="/tmp/vim2tor$RANDOM"
-cp resources/base_exercise_file.txt $filename;
-time vi $filename;
+dirname="/tmp/vimrun$RANDOM"
+mkdir $dirname;
+cp resources/* $dirname/;
+time vim $dirname/* -c "tab all";

@@ -1,4 +1,14 @@
 What are the essentials of vim:
+  Tabbing:
+    gt and gT 
+
+    * If we break the application into page, we can use tabs
+    * movement motions
+    * editing motions
+    * general editing
+    * idk
+    * text-objects
+
   #,#:command:
     This is selecting a block of text by line numbers.
     Pretty damned useful for deleting, copying, indenting blocks of text.
