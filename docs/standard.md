@@ -16,3 +16,4 @@ Vim2tor Stardards
 * Each section is 2 lines, then the combo / command, then 2 lines, then an exercise
 * Exercises have one empty row between 
 * Each file must be no more than 200 lines long
+* The exercises should take a semi-experienced user no more than 10 minutes to complete all of them.

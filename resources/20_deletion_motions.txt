@@ -67,3 +67,20 @@
     too.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+            (  f,<key>  )
+
+
+==> ( f, . ) will jump you from the start of this line to the end.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+            (  d, f, <key>  )
+
+
+--> This is a line with a huge block in it.
+==> This is a line with |XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX|a huge block in it.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
