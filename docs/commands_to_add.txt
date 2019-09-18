@@ -1,4 +1,20 @@
 What are the essentials of vim:
+  Macros:
+    The section on macros breaks my own rules with regards to 
+    kata complexity. 
+    This section should be focused on the returning practiser,
+    with little instructions. Not focused on the newbie.
+
+  G, and g, and possibly CTRL + o:
+    Seperate them. 
+
+    The fact that they're together means to go to the top or bottom 
+    of the page, i have both of them trained into my reflexes to do 
+    both things.
+    Sound confusing? Yeah, that's how i feel.
+
+    Sepearte them
+
   #,#:command:
     This is selecting a block of text by line numbers.
     Pretty damned useful for deleting, copying, indenting blocks of text.
