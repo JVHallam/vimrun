@@ -1,55 +1,43 @@
-
-
-           V I M R U N                               
-
-
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 
            ( :line_number )
 
 
-==> :20
+--> :20
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 
            (  w, x  ) 
 
 
-==> Its jjust a fflesh wwound.
+--> Its jjust a fflesh wwound.
 
-==> This bbuilding has tto be aat lleast three ttimes bbigger tthan tthis!
+--> This bbuilding has tto be aat lleast three ttimes bbigger tthan tthis!
 
-==> I am sserious. AAnd dont ccall mme SShirley.
+--> I am sserious. AAnd dont ccall mme SShirley.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 
           (  e, x  )
 
 
-==> Imm about too doo too youu what Limpp Bizkit didd too musicc inn 
+--> Imm about too doo too youu what Limpp Bizkit didd too musicc inn 
     the latee 90s.
 
-==> Greaterr good? II amm your wifee! Imm the greatestt goodd youree ever 
+--> Greaterr good? II amm your wifee! Imm the greatestt goodd youree ever 
     gonnaa gett!
 
-==> The coww jumpedd overr the moonn.
+--> The coww jumpedd overr the moonn.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
           
           (  i  )
 
 
-==> There is text misng this .
+--> There is text misng this .
 ==> There is some text missing from this line.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
            
           ( CTRL + F )
 
@@ -57,36 +45,28 @@
 
           ( CTRL + U )
 
-
-
-
-
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 
           (  A  )
 
 
---> There is also some text missing here.
-==> There is also some text miss
+--> There is also some text miss
+==> There is also some text missing here.
 
---> There is some text missing from this line.
-==> There is some text missing from th
+--> There is some text missing from th
+==> There is some text missing from this line.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 
           (  u  )
 
 
-==> Fiix the problemms oon thhis line and reeplace them witth undo.
+--> Fiix the problemms oon thhis line and reeplace them witth undo.
 
 
           ( CTRL + r )
 
-
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 
           ( CTRL + o  -> Return to last spot )
 
@@ -102,38 +82,35 @@
             (  o || O  )
 
 
---> Top    ( o )
---> Below
---> Middle
---> Above
---> Bottom ( O ) 
-
 ==> Top    ( o )
+==> Below
 ==> Middle
-==> Bottom ( O )
+==> Above
+==> Bottom ( O ) 
+
+--> Top    ( o )
+==> Middle
+--> Bottom ( O )
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 
             (  a  )
 
 
---> This line will allow you to practice appending text to a line.
-==> This li will allow you to pract appendi text to a line.
+--> This li will allow you to pract appendi text to a line.
+==> This line will allow you to practice appending text to a line.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-
             (  Y, p  )
 
---> First
---> Second
---> Third
+==> First
+==> Second
+==> Third
 
 ==> First
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 
             (  q macros  )
 
@@ -141,8 +118,6 @@
 --> q, a, 0, ce, *, <ESC>, q
 --> Move to the next line
 --> @, a
-
-
 
 
 Record here:
@@ -181,7 +156,6 @@ Then:
 ==>  unistd.h
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 
             (  g, t  )
 

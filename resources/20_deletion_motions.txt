@@ -1,29 +1,36 @@
-
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
           (  d,w  )
 
 
-==> There XXX some useless XXX blocks in this XXX line.
+--> There XXX some useless XXX blocks in this XXX line.
 
-==> There are a some words fun that don't belong paper in this line.
+--> There are a some words fun that don't belong paper in this line.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 
           (  d,$  )
 
 
-==> Somebody typed the end of this line twice. end of this line twice.
+--> Somebody typed the end of this line twice. end of this line twice.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~      
-
 
           (  number, d, w  )
 
-==>  this 2DW XXX line 4DW XXX XXX XXX of words is 3DW XXX XXX cleaned up.
+-->  this 2DW XXX line 4DW XXX XXX XXX of words is 3DW XXX XXX cleaned up.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+          ( dd, p  )
+
+
+==> 4) Can you learn too?
+==> 2) Violets are blue,
+==> 3) Intelligence is learned,
+==> 1) Roses are red,
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~      
-
 
           (  d,d  )
 
@@ -33,22 +40,10 @@
 ==>  3)  Violets are blue,
 ==>  4)  I have a car,
 ==>  5)  Clocks tell time,
-==>  6)  Sugar is sweet
-==>  7)  And so are you.
+==>  6)  Intelligence is learned, 
+==>  7)  Can you learn too? 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-          ( dd, p  )
-
-
-==> d) Can you learn too?
-==> b) Violets are blue,
-==> c) Intelligence is learned,
-==> a) Roses are red,
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 
             (  J  )
             
@@ -68,14 +63,12 @@
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-
             (  f,<key>  )
 
 
-==> ( f, . ) will jump you from the start of this line to the end.
+==> ( f, | ) will jump you from the start of this line to the end |
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 
             (  d, f, <key>  )
 

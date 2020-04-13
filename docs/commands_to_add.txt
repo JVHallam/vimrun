@@ -1,4 +1,23 @@
 What are the essentials of vim:
+  More emphasis on text objects:
+    Visual mode and text objects are most likely the best things to focus on.
+    Remember, this is to be aimed at the master, who's repeating, 
+    rather than the newbie, who'd focused on learning it for the first time.
+
+    Text objects are the most powerful way of selecting things.
+
+    Visual mode gives a visual way to allow the user to see what's going on.
+
+    Combining future commands ( c, d, v ) with the text objects, makes shit way more powerful.
+
+  Visual mode with pasting:
+    * use yiw to yank a work
+    * use viw to select a word to be replaced
+    * use p to paste the original yanked word over the selected word
+
+  select a bunch of text, then : u, U: 
+    * change the case of a selection
+
   Macros:
     The section on macros breaks my own rules with regards to 
     kata complexity. 

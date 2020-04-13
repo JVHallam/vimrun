@@ -2,18 +2,57 @@ Vim2tor Stardards
 ===
 
 ## Key ideas
-* The exercises must be replayable. Meaning, only the text required for the exercise must be included, nothing more. No lore, No history, No explanations. 
+* Keep lines short
+* NO EXPLANATIONS
+* If an explanation is needed, create smaller exercises to explain the complex things
+* Focus on replayability.
 * Use whitespace as much as you can to draw divisions
-* KISS
-  * Feel free to repeat yourself. Machines don't need repetitions, but humans sure as hell do!
-
+* Per exercise block, try and have the action done 3 times or less.
+* Create exercises with learning through daily repitition in mind
+* Don't ask the user to think, ask them to do
 
 ## Standards list:
-* There's only one command / combo to be used per section
+* There's only one command / chord / combo per section
+
+      ( This is where the commands are )
+
 * Section titles are the commands / combos that are to be done there
-* No explantions
-* Writing out combos ( v,i,s,p ) is allowed, but telling them what it does is not.
-* Each section is 2 lines, then the combo / command, then 2 lines, then an exercise
-* Exercises have one empty row between 
-* Each file must be no more than 200 lines long
-* The exercises should take a semi-experienced user no more than 10 minutes to complete all of them.
+* Each file must be no more than 10 exercises long
+* If something feels redundant, remove it
+* The entire run should take no more than 5 - 10 minutes on repitition
+
+## When words aren't needed.
+* XXX   - useless block to be deleted
+* |     - a position to be jumped to
+* 0-9   - Use numbers to denote order. Not the alphabet.
+
+## Exercise layout:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+           ( Command )
+
+
+--> Line on which to the exercise
+==> The end result we're trying to match
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Absolute do nots!
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+           ( Command 1 )
+           ( Command 2 )
+           ( Command 3 )
+
+
+==> This will cause the user NOT to think that these are seperate commands
+    But are commands that must be executed together.
+==> Therefore when trying to do command 3, they must do 1 and 2 first.
+    It's happened to me, it's not good.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+

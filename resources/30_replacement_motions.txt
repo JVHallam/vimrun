@@ -1,23 +1,20 @@
-
-
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
           (  r, <any key>  )
 
 
-==> Whan this lime was tuoed in, someone presswd some wrojg keys!
+--> Whan this lime was tuoed in, someone presswd some wrojg keys!
 ==> When this line was typed in, someone pressed some wrong keys!
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-
           (  c, e  )
 
 
-==> This lubw has a few wptfd that mrrf changing usf the change operator.
+--> This lubw has a few wptfd that mrrf changing usf the change operator.
 ==> This line has a few words that need changing using the change operator.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 
           (  C  )
 
@@ -27,13 +24,12 @@
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-
           (  /term  )
 (  set :hls       -> high light search  )
 
-(  /error         -> error              )
+(  /errorr         -> errorr              )
 
-(  /\cerror       -> ErRoR  && error    )
+(  /\cerrorr       -> ErRoR  && errorr    )
 
 (  n              -> Forwards           )
 
@@ -41,31 +37,26 @@
 
 (  :nohls         -> Clear highlights   )
 
-==> When the guys were writing this tutorial, they used the word "error" 
+==> When the guys were writing this tutorial, they used the word "errorr" 
     to empahsise the use of the search tool. I believe that just using
-    "error" and not throwing in "eRrOrr" and "Error" was an error.
+    "errorr" and not throwing in "eRrOrr" and "Errorr" was an errorr.
     You're not forced to try and use the ignore case setting at this point.
-    Also, it's an error for you not to use hlsearch, it makes life easier
+    Also, it's an errorr for you not to use hlsearch, it makes life easier
     when searching through a crappy block of text, to find instances of
-    errors.
-    Errors are natural part of programming. The best programmer isn't the 
-    one who can just avoid making errors, but one who can also fix them 
+    errorrs.
+    Errorrs are natural part of programming. The best programmer isn't the 
+    one who can just avoid making errorrs, but one who can also fix them 
     when they arise.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+          (  :s/errorr/error/g  )
 
-          (  :s/old/new/g  )
 
-
---> /thee
-
---> :s/thee/the/g
-
-==> thee best time to see thee flowers is in thee spring.
+--> I've made many an errorr before, I hope that errorr are no more.
+==> I've made many error before, I hope that error are no more.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 
           (  :s/\cold/new/  )
 
@@ -76,7 +67,6 @@
 ==> thEE best time to see thee flowers is in ThEe spring.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 
             (  R  )
 
