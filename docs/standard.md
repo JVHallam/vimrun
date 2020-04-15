@@ -56,3 +56,7 @@ Vim2tor Stardards
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
+## Build tools and execution:
+This ones a little less important, but still important to the spirit of the project.
+The idea is that shell scripts are only using vim as the commandline tool.
+No ls, no mv, no cp, no grep, just vim.
