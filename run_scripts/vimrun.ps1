@@ -1,6 +1,9 @@
 $TempDirectory = "test"
-ls resources | foreach -process { cat "resources/$($_.Name)" > "$($TempDirectory)/$($_.Name)" };
-vim "$($TempDirectory)/*" -c "tab all";
+# ls resources | foreach -process { cat "resources/$($_.Name)" > "$($TempDirectory)/$($_.Name)" };
+# vim "$($TempDirectory)/*" -c "tab all";
+
+vim resources/* "+tab all" "+tabdo exec 'write' 'test/' . expand('%:t')" "+qall";
+vim test/* "+tab all";
 
 <#
 ## What this script should do
