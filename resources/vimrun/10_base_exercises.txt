@@ -101,7 +101,7 @@
 ==> Second
 ==> Third
 
-==> First
+--> First
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -115,7 +115,7 @@
 
 Record here:
 
-==> This
+--> This
 
 To
 
@@ -123,36 +123,36 @@ To
 
 Then:
 
-==> This
-==> Is
-==> A
-==> Star
-==> Bullet
-==> List
+--> This
+--> Is
+--> A
+--> Star
+--> Bullet
+--> List
 
 
 
 
 Record Here:
 
-==>  stdio.h
+-->  stdio.h
 
 To 
 
-==>  #include <stdio.h>
+-->  #include <stdio.h>
 
 Then:
 
-==>  string.h
-==>  stdlib.h
-==>  stdint.h
-==>  unistd.h
+-->  string.h
+-->  stdlib.h
+-->  stdint.h
+-->  unistd.h
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
             (  g, t  )
 
 
-==> Hit g,t to move onto the next tabs worth of exercises
+--> Hit g,t to move onto the next tabs worth of exercises
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

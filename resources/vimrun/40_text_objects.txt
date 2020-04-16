@@ -51,10 +51,11 @@
            ( ( and ) )
 
 
-  This is a sentence.
+  This is a sentence. This sentence follows. Then this one.
   This is also
   a sentence.
-  You can jump through them using the ( and ) keys.
+  You can jump through them using the ( and ) keys. They're useful.
+  A. Sentence. Is. Denoted. By. A. Full. Stop.
 
   They're super useful keys, especially when you're being super lazy.
 
@@ -151,7 +152,7 @@
            (  v, a, t  )
 
 
---> <li> Bam </li>
+--> <li> Boom </li>
 ==> <li> Boom </li><li> Boom </li><li> Boom </li>
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -167,16 +168,16 @@
            (  v, i, <  )
 
 
---> <> empty <>
-==> <div> full </div>
+--> <> Tag <>
+==> <div> Tag </div>
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
            (  d, a, <  )
 
 
---> <div><bad> WRONG </bad></div>
-==> <div> RIGHT </div>
+--> <div><bad> Tag </bad></div>
+==> <div> Tag </div>
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 

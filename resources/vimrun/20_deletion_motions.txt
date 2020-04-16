@@ -25,16 +25,6 @@
 -->  this 2DW XXX line 4DW XXX XXX XXX of words is 3DW XXX XXX cleaned up.
 ==>  this line of words is cleaned up.
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-          ( dd, p  )
-
-
-==> 4) Can you learn too?
-==> 2) Violets are blue,
-==> 3) Intelligence is learned,
-==> 1) Roses are red,
-
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~      
 
           (  d,d  )
@@ -47,6 +37,16 @@
 ==>  5)  Clocks tell time,
 ==>  6)  Intelligence is learned, 
 ==>  7)  Can you learn too? 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+          ( dd, p  )
+
+
+==> 4) Can you learn too?
+==> 2) Violets are blue,
+==> 3) Intelligence is learned,
+==> 1) Roses are red,
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
