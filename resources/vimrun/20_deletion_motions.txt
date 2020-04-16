@@ -73,7 +73,7 @@
             (  d, f, <key>  )
 
 
---> This is a line with a huge block in it.
-==> This is a line with |XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX|a huge block in it.
+--> This is a line with |XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX|a huge block in it.
+==> This is a line with a huge block in it.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

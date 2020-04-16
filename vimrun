@@ -2,5 +2,5 @@
 
 dirname="/tmp/vimrun$RANDOM"
 mkdir $dirname;
-cp resources/* $dirname/;
+cp resources/vimrun/* $dirname/;
 time vim $dirname/* -c "tab all";

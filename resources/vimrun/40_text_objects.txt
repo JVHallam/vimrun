@@ -36,14 +36,14 @@
 ==> ORDER TEXT
 
 
-  This is the third paragraph.
+  3 ) This is the third paragraph.
   This goes at the bottom.
 
-  This is the first 
+  1 ) This is the first 
   paragraph.
   This one goes at the top.
 
-  This is the second paragraph.
+  2 ) This is the second paragraph.
   This goes in the middle.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

@@ -12,22 +12,13 @@
 
 --> Its jjust a fflesh wwound.
 
---> This bbuilding has tto be aat lleast three ttimes bbigger tthan tthis!
-
---> I am sserious. AAnd dont ccall mme SShirley.
-
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
           (  e, x  )
 
 
---> Imm about too doo too youu what Limpp Bizkit didd too musicc inn 
-    the latee 90s.
-
 --> Greaterr good? II amm your wifee! Imm the greatestt goodd youree ever 
     gonnaa gett!
-
---> The coww jumpedd overr the moonn.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
           
@@ -72,10 +63,11 @@
 
           ( gg        -> Top                 )
 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+          ( CTRL + o  -> Return to last spot )
+
           ( G         -> Bottom              )
-
-
-==> Jump to the top, to the bottom, then back to this line.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
