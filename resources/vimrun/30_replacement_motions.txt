@@ -19,12 +19,14 @@
           (  C  )
 
 
---> The end of this line needs some help to make it like the second.
+--> The end of this line needs to be corrected | - i don't care how. - |
 ==> The end of this line needs to be corrected using the  C  command.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
           (  /term  )
+
+
 (  set :hls       -> high light search  )
 
 (  /errorr         -> errorr              )
@@ -54,11 +56,12 @@
 
 
 --> I've made many an errorr before, I hope that errorr are no more.
-==> I've made many error before, I hope that error are no more.
+==> I've made many an error before, I hope that error are no more.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
           (  :s/\cold/new/  )
+
 
 --> /\cthee
 
@@ -71,7 +74,7 @@
             (  R  )
 
   
---> Adding 123 to 456 gives you 579.
-==> Adding XXX to xxx gives you xxx.
+--> Adding XXX to XXX gives you XXX.
+==> Adding 123 to 456 gives you 579.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

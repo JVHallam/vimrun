@@ -50,6 +50,7 @@
 
            ( ( and ) )
 
+
   This is a sentence.
   This is also
   a sentence.
@@ -62,123 +63,125 @@
            (  d, a, s  )
 
 
---> This is sentence one. This is sentence two.
-==> This is sentence one. XXX XXX XXX XXX. This is sentence two.
+--> This is sentence one. XXX XXX XXX XXX. This is sentence two.
+==> This is sentence one. This is sentence two.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
            (  c, i, s  )
 
 
---> This is sentence one. This is sentence two. This is sentence three. 
-==> This is sentence one. XXX XXX XXX XXX XXXX. This is sentence three. 
+--> This is sentence one. XXX XXX XXX XXX XXXX. This is sentence three. 
+==> This is sentence one. This is sentence two. This is sentence three. 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
            (  v, a, s  )
 
 
---> This is a good sentence. This is a good sentence. This is a good sentence.
-==> This is a good sentence. 
+--> This is a good sentence. 
+==> This is a good sentence. This is a good sentence. This is a good sentence.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
            
            (  c, i, (  )
 
 
---> function_call( good_var );
-==> function_call( bad_var, terrible_var, error_var );
+--> function_call( bad_var, terrible_var, error_var );
+==> function_call( good_var );
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
            
            (  d, i, (  )
 
---> function_call(); 
-==> function_call( uneeded_var, super_unneeded_var ); 
+
+--> function_call( uneeded_var, super_unneeded_var ); 
+==> function_call(); 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
            (  v, i, (  )
 
 
---> function_one( var_one, var_two, var_three );
-==> function_two();
+--> function_two();
+==> function_one( var_one, var_two, var_three );
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
            (  c, i, "  )
 
 
---> I forgot how to "quote" something
-==> I forgot how to "kwote" something
+--> I forgot how to "kwote" something
+==> I forgot how to "quote" something
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
            
            (  d, a, "  )
 
 
---> I decided to put a useless string in this sentence.
-==> I decided to put a "SUPER USEFUL" useless string in this sentence.
+--> I decided to put a "SUPER USEFUL" useless string in this sentence.
+==> I decided to put a useless string in this sentence.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
            
            (  v, i, "  )
 
 
---> Excuse me, do you know where i can find some "Sailors"? 
-==> Excuse me, do you know where i can find some ""? 
+--> Excuse me, do you know where i can find some ""? 
+==> Excuse me, do you know where i can find some "Sailors"? 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
            
            (  c, i, t  )
 
 
---> <li> This is correct </li>
-==> <li> This is a super wrong block </li>
+--> <li> This is a super wrong block </li>
+==> <li> This is correct </li>
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
            
            (  d, a, t  )
 
 
---> <li> 1 </li><li> 2 </li><li> 3 </li>
-==> <li> 1 </li><li> WRONG </li><li> 2 </li><li> 3 </li>
+--> <li> 1 </li><li> WRONG </li><li> 2 </li><li> 3 </li>
+==> <li> 1 </li><li> 2 </li><li> 3 </li>
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
            
            (  v, a, t  )
 
 
---> <li> Boom </li><li> Boom </li><li> Boom </li>
-==> <li> Bam </li>
+--> <li> Bam </li>
+==> <li> Boom </li><li> Boom </li><li> Boom </li>
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
            (  c, i, <  )
 
 
---> <div> Right use of tags </div>
-==> <img> Wrong use of tags <p>
+--> <img> Wrong use of tags <p>
+==> <div> Right use of tags </div>
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
            (  v, i, <  )
 
 
---> <div> full </div>
-==> <> empty <>
+--> <> empty <>
+==> <div> full </div>
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
            (  d, a, <  )
 
 
---> <div> RIGHT </div>
-==> <div><bad> WRONG </bad></div>
+--> <div><bad> WRONG </bad></div>
+==> <div> RIGHT </div>
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
            ( . ) 
+
 
 --> <h2>  All of these should be </h2>
 ==> <p>   This is an h2 </h2>

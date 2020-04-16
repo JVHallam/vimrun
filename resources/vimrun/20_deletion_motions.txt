@@ -4,8 +4,10 @@
 
 
 --> There XXX some useless XXX blocks in this XXX line.
+==> There some useless blocks in this line.
 
 --> There are a some words fun that don't belong paper in this line.
+==> There are some words that don't belong in this line.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -13,12 +15,15 @@
 
 
 --> Somebody typed the end of this line twice. end of this line twice.
+==> Somebody typed the end of this line twice. 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~      
 
           (  number, d, w  )
 
+
 -->  this 2DW XXX line 4DW XXX XXX XXX of words is 3DW XXX XXX cleaned up.
+==>  this line of words is cleaned up.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -48,18 +53,23 @@
             (  J  )
             
   
-==> This
+--> This
     is
     an
     example
     for the
     capital J command.
 
-==> Join this
+==> This is an example for the capital J command.
+
+
+--> Join this
       
     line
     together
     too.
+
+==> Join this line together too.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
