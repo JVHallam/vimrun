@@ -67,7 +67,8 @@
 
 --> :%s/\cthee/the/g
 
-==> thEE best time to see thee flowers is in ThEe spring.
+--> thEE best time to see thee flowers is in ThEe spring.
+==> the best time to see the flowers is in the spring.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
