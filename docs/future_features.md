@@ -11,10 +11,18 @@
 		* Then uses those for the actions
 
 	* Why:
-		* In the future, i want to be able to add hundreds, if not thousands, of exercises. That'll break the Vim run rule of each page only being a few pages long and only 10 exercises per page.
-		* in the future, I'd like to add an Anki like system to exercises so that exercises are progressive, productive and fresh. They'd be orderable in terms of priority and would allow me to advance myself, with regards to vim.
-		* In the future, i wish to be 100 times better with vim, with only a half of the time required.
+		* I want to be able to add an SRS system
+		* This is the first step for that
 	
+* Queue based practise ( first super basic SRS approach ):
+	* Have a file that contains the names of all exercises
+	* It takes the top, say, 50 exercises
+	* It removes them from the top and puts them on the bottom
+	* It also uses those 50 for vimrun exercises
+	* This way, we can have an extremely basic SRS system, that could super easily be expanded
+	* Once the Atomic file structure thing has been implemented, this would be dope
+	* Could also have it randomise the order. That'd be cool.
+	* let next exercise = rand() % 50, then 49, 48, etc.
 	
 * file browsing exercise:
 	* In one tab, you have the list of commands to do
