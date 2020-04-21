@@ -25,13 +25,14 @@
 	* let next exercise = rand() % 50, then 49, 48, etc.
 
 * Periodically growing the queue?
-	* There needs to be a way to slowly grow the queue
-	* By slowly growing the queue:
-		* More cards get added over time
-		* Practise session between older cards get longer
-		* However, newer cards wouldn't get practised often enough to stick
-	* The queue would have to me more of a spiral, then a circular queue
-	* There needs to be a way to space out the practise sessions, prioritising newer cards
+	* Once the above queue system is in place
+	* Add another stage to it, with 3 queues
+	* One to three new exercises get added a day to queue one
+	* 0 - exercises to be done, 1 - Brand new, 2 - Daily, 3 - every other day, 4 - final queue
+	* It's taken from 0 to 1, and you practise it,
+	* Every time you practise it, it's moved up one
+	* Space this out, so that you're practising each one a little at a time.
+	* Relies on the queue system from above being implemented
 	
 * file browsing exercise:
 	* In one tab, you have the list of commands to do
