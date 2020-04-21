@@ -23,6 +23,15 @@
 	* Once the Atomic file structure thing has been implemented, this would be dope
 	* Could also have it randomise the order. That'd be cool.
 	* let next exercise = rand() % 50, then 49, 48, etc.
+
+* Periodically growing the queue?
+	* There needs to be a way to slowly grow the queue
+	* By slowly growing the queue:
+		* More cards get added over time
+		* Practise session between older cards get longer
+		* However, newer cards wouldn't get practised often enough to stick
+	* The queue would have to me more of a spiral, then a circular queue
+	* There needs to be a way to space out the practise sessions, prioritising newer cards
 	
 * file browsing exercise:
 	* In one tab, you have the list of commands to do
