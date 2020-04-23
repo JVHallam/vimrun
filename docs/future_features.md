@@ -1,26 +1,27 @@
 * Atomic file structure
-	* Each exercise could be it's own tiny little file
-	* Have a file that contains a:
-		* List of pages
-			* Containing a list of exercises
-			* A page name?
+	* Take each exercise
+	* Put it into it's own file
+	* The file start with the exercise name ( w, x ), for example
+	* ends with the final line of the exercise
+	* no additional white space, borders, etc.
 
-	* Have a script that :
-		* Takes the above file
-		* Combines everything into their new files
-		* Then uses those for the actions
+	* for each exercise:
+		* create a new file ( the exercise name, without :, ',', etc. )
+		* copy the exercise in
+		* save it
 
-	* Why:
-		* I want to be able to add an SRS system
-		* This is the first step for that
-	
 * Queue based practise ( first super basic SRS approach ):
-	* Have a file that contains the names of all exercises
-	* It takes the top, say, 50 exercises
+	* Break all the existing exercises into their own files
+	* have a directory for each type of file ( movement, deletion, etc. )
+	* Create a temp execution directory?
+	* Inside is a file for each directory type ( movement, deletion, etc. )
+
+	* It takes the top, say, 5 exercises from each
 	* It removes them from the top and puts them on the bottom
-	* It also uses those 50 for vimrun exercises
+	* It also uses those 25 for vimrun exercises
+
 	* This way, we can have an extremely basic SRS system, that could super easily be expanded
-	* Once the Atomic file structure thing has been implemented, this would be dope
+
 	* Could also have it randomise the order. That'd be cool.
 	* let next exercise = rand() % 50, then 49, 48, etc.
 
