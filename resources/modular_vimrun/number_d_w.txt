@@ -1,0 +1,5 @@
+          (  number, d, w  )
+
+
+-->  this 2DW XXX line 4DW XXX XXX XXX of words is 3DW XXX XXX cleaned up.
+==>  this line of words is cleaned up.

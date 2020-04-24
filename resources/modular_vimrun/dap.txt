@@ -1,0 +1,30 @@
+           (  d, a, p  )
+
+
+==> REMOVE LOREM
+
+
+  This is a useful
+  paragraph that
+  has alot of content.
+
+  Lorem ipsum dolor sit amet, 
+  consectetur adipiscing elit. 
+  Maecenas id varius eros, eget lacinia augue. 
+
+  This is some more content, 
+  don't delete this.
+
+
+==> ORDER TEXT
+
+
+  3 ) This is the third paragraph.
+  This goes at the bottom.
+
+  1 ) This is the first 
+  paragraph.
+  This one goes at the top.
+
+  2 ) This is the second paragraph.
+  This goes in the middle.

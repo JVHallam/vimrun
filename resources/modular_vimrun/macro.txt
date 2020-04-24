@@ -1,0 +1,42 @@
+            (  q macros  )
+
+
+--> q, a, 0, ce, *, <ESC>, q
+--> Move to the next line
+--> @, a
+
+
+Record here:
+
+--> This
+
+To
+
+* This
+
+Then:
+
+--> This
+--> Is
+--> A
+--> Star
+--> Bullet
+--> List
+
+
+
+
+Record Here:
+
+-->  stdio.h
+
+To 
+
+-->  #include <stdio.h>
+
+Then:
+
+-->  string.h
+-->  stdlib.h
+-->  stdint.h
+-->  unistd.h

@@ -1,0 +1,12 @@
+            (  o || O  )
+
+
+==> Top    ( o )
+==> Below
+==> Middle
+==> Above
+==> Bottom ( O ) 
+
+--> Top    ( o )
+==> Middle
+--> Bottom ( O )

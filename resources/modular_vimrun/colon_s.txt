@@ -1,0 +1,5 @@
+          (  :s/errorr/error/g  )
+
+
+--> I've made many an errorr before, I hope that errorr are no more.
+==> I've made many an error before, I hope that error are no more.

@@ -1,0 +1,20 @@
+            (  J  )
+            
+  
+--> This
+    is
+    an
+    example
+    for the
+    capital J command.
+
+==> This is an example for the capital J command.
+
+
+--> Join this
+      
+    line
+    together
+    too.
+
+==> Join this line together too.

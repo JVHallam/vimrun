@@ -1,0 +1,5 @@
+          (  C  )
+
+
+--> The end of this line needs to be corrected | - i don't care how. - |
+==> The end of this line needs to be corrected using the  C  command.

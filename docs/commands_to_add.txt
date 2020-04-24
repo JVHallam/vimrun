@@ -43,3 +43,17 @@ Additional movement:
 
   These move you around, with regards to previous places you've been. This make shit so much easier to get 
   back to the work that you were previously doing.
+
+Linewise editing:
+	* cc -> delete an entire line, and enter edit mode
+	* SHIFT + V => linewise visual mode
+	* CTRL + V => blockwise visual mode
+
+% command:
+	:% means to execute on every line, a command
+	:%norm JJ
+		* executes JJ on every line
+	
+	:10,15%norm @a:
+		* executes the @a macro on every line from 10 to and including 15
+	

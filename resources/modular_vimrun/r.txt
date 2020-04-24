@@ -1,0 +1,5 @@
+          (  r, <any key>  )
+
+
+--> Whan this lime was tuoed in, someone presswd some wrojg keys!
+==> When this line was typed in, someone pressed some wrong keys!

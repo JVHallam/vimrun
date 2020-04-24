@@ -1,0 +1,5 @@
+          (  d,$  )
+
+
+--> Somebody typed the end of this line twice. end of this line twice.
+==> Somebody typed the end of this line twice. 
