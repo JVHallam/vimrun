@@ -1,0 +1,47 @@
+" Global config variables
+let dividerPath = "resources/divider.txt"
+
+" Dump all the file names into the file
+put =globpath('resources/modular_vimrun','*')
+
+
+" for every line in the file, copy it's value into an array
+let i = 0
+let end = line('$')
+let outputList = []
+
+while( i <= end )
+  let curLine = getline(i)
+
+  if strlen( curLine ) > 0
+    call add( outputList, curLine )
+  endif
+  let i = i + 1
+endwhile
+
+" delete the contents of the file
+" still needs doing
+exec "% d"
+
+" put the first divider in, to top off the file
+exec "read" dividerPath
+
+for fileName in outputList
+  " Jump to the end of the file
+  let endOfFile = line('$')
+  call cursor(endOfFile, 0)
+
+  " put in the divider
+  exec "read" dividerPath
+
+  " put in the, above it
+  exec "read" fileName
+endfor
+
+" Top 4 lines of the file are whitespace
+" Delete them
+exec "1,4 d"
+
+" Cap off the final exercise
+exec "wq"
+
