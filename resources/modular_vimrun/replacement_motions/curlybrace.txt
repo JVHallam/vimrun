@@ -1,0 +1,12 @@
+            ( { or } )
+
+
+  With the { and } operators.
+  You can quickly jump through paragraphs of text.
+
+  It's a super useful operator.
+
+  Personally, i'm quite lazy. Therefore,
+  it's so much easier for me to bash the 
+  } key repeatedly, so that i can move through text
+  instead of using the jump queue.

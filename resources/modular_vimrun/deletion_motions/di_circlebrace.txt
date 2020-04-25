@@ -1,0 +1,5 @@
+           (  d, i, (  )
+
+
+--> function_call( uneeded_var, super_unneeded_var ); 
+==> function_call(); 

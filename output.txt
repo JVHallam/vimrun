@@ -1,0 +1,458 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+            (  J  )
+            
+  
+--> This
+    is
+    an
+    example
+    for the
+    capital J command.
+
+==> This is an example for the capital J command.
+
+
+--> Join this
+      
+    line
+    together
+    too.
+
+==> Join this line together too.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+            (  a  )
+
+
+--> This li will allow you to pract appendi text to a line.
+==> This line will allow you to practice appending text to a line.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+          (  A  )
+
+
+--> There is also some text miss
+==> There is also some text missing here.
+
+--> There is some text missing from th
+==> There is some text missing from this line.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+           (  d, a, t  )
+
+
+--> <li> 1 </li><li> WRONG </li><li> 2 </li><li> 3 </li>
+==> <li> 1 </li><li> 2 </li><li> 3 </li>
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+          (  d,d  )
+
+
+==>  1)  Roses are red,
+==>  2)  Mud is fun,
+==>  3)  Violets are blue,
+==>  4)  I have a car,
+==>  5)  Clocks tell time,
+==>  6)  Intelligence is learned, 
+==>  7)  Can you learn too? 
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+          (  d,$  )
+
+
+--> Somebody typed the end of this line twice. end of this line twice.
+==> Somebody typed the end of this line twice. 
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+            (  d, f, <key>  )
+
+
+--> This is a line with |XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX|a huge block in it.
+==> This is a line with a huge block in it.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+          (  d,w  )
+
+
+--> There XXX some useless XXX blocks in this XXX line.
+==> There some useless blocks in this line.
+
+--> There are a some words fun that don't belong paper in this line.
+==> There are some words that don't belong in this line.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+           (  d, a, <  )
+
+
+--> <div><bad> Tag </bad></div>
+==> <div> Tag </div>
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+           (  d, a, "  )
+
+
+--> I decided to put a "SUPER USEFUL" useless string in this sentence.
+==> I decided to put a useless string in this sentence.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+           (  d, a, p  )
+
+
+==> REMOVE LOREM
+
+
+  This is a useful
+  paragraph that
+  has alot of content.
+
+  Lorem ipsum dolor sit amet, 
+  consectetur adipiscing elit. 
+  Maecenas id varius eros, eget lacinia augue. 
+
+  This is some more content, 
+  don't delete this.
+
+
+==> ORDER TEXT
+
+
+  3 ) This is the third paragraph.
+  This goes at the bottom.
+
+  1 ) This is the first 
+  paragraph.
+  This one goes at the top.
+
+  2 ) This is the second paragraph.
+  This goes in the middle.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+           (  d, a, s  )
+
+
+--> This is sentence one. XXX XXX XXX XXX. This is sentence two.
+==> This is sentence one. This is sentence two.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+          ( dd, p  )
+
+
+==> 4) Can you learn too?
+==> 2) Violets are blue,
+==> 3) Intelligence is learned,
+==> 1) Roses are red,
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+           (  d, i, (  )
+
+
+--> function_call( uneeded_var, super_unneeded_var ); 
+==> function_call(); 
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+          (  e, x  )
+
+
+--> Greaterr good? II amm your wifee! Imm the greatestt goodd youree ever 
+    gonnaa gett!
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+            (  f,<key>  )
+
+
+==> ( f, | ) will jump you from the start of this line to the end |
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+            (  g, t  )
+
+
+--> Hit g,t to move onto the next tabs worth of exercises
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+          ( CTRL + o  -> Return to last spot )
+
+          ( G         -> Bottom              )
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+          ( CTRL + o  -> Return to last spot )
+
+          ( gg        -> Top                 )
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+          (  i  )
+
+
+--> There is text misng this .
+==> There is some text missing from this line.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+           (  w, x  ) 
+
+
+-> Its jjust a fflesh wwound.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+            (  q macros  )
+
+
+--> q, a, 0, ce, *, <ESC>, q
+--> Move to the next line
+--> @, a
+
+
+Record here:
+
+--> This
+
+To
+
+* This
+
+Then:
+
+--> This
+--> Is
+--> A
+--> Star
+--> Bullet
+--> List
+
+
+
+
+Record Here:
+
+-->  stdio.h
+
+To 
+
+-->  #include <stdio.h>
+
+Then:
+
+-->  string.h
+-->  stdlib.h
+-->  stdint.h
+-->  unistd.h
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+          (  number, d, w  )
+
+
+-->  this 2DW XXX line 4DW XXX XXX XXX of words is 3DW XXX XXX cleaned up.
+==>  this line of words is cleaned up.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+            (  o || O  )
+
+
+==> Top    ( o )
+==> Below
+==> Middle
+==> Above
+==> Bottom ( O ) 
+
+--> Top    ( o )
+==> Middle
+--> Bottom ( O )
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+           ( . ) 
+
+
+--> <h2>  All of these should be </h2>
+==> <p>   This is an h2 </h2>
+==> <h3>  h3 this is also an h2 </h2>
+==> <a>   These tags need help </h2>
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+          (  /term  )
+
+
+(  set :hls       -> high light search  )
+
+(  /errorr         -> errorr              )
+
+(  /\cerrorr       -> ErRoR  && errorr    )
+
+(  n              -> Forwards           )
+
+(  N              -> Backwards          )
+
+(  :nohls         -> Clear highlights   )
+
+==> When the guys were writing this tutorial, they used the word "errorr" 
+    to empahsise the use of the search tool. I believe that just using
+    "errorr" and not throwing in "eRrOrr" and "Errorr" was an errorr.
+    You're not forced to try and use the ignore case setting at this point.
+    Also, it's an errorr for you not to use hlsearch, it makes life easier
+    when searching through a crappy block of text, to find instances of
+    errorrs.
+    Errorrs are natural part of programming. The best programmer isn't the 
+    one who can just avoid making errorrs, but one who can also fix them 
+    when they arise.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+          (  u  )
+
+
+--> Fiix the problemms oon thhis line and reeplace them witth undo.
+
+
+          ( CTRL + r )
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+           (  v, a, s  )
+
+
+-->. This is a good sentence. 
+==>. This is a good sentence. This is a good sentence. This is a good sentence.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+           (  v, a, t  )
+
+
+--> <li> Boom </li>
+==> <li> Boom </li><li> Boom </li><li> Boom </li>
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+           (  v, i, <  )
+
+
+--> <> Tag <>
+==> <div> Tag </div>
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+           (  v, i, (  )
+
+
+--> function_two();
+==> function_one( var_one, var_two, var_three );
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+           (  v, i, "  )
+
+
+--> Excuse me, do you know where i can find some ""? 
+==> Excuse me, do you know where i can find some "Sailors"? 
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+           (  w, x  ) 
+
+
+--> Its jjust a fflesh wwound.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+            (  Y, p  )
+
+
+==> First
+==> Second
+==> Third
+
+--> First
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+

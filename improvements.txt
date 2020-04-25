@@ -1,3 +1,0 @@
-The first exercise lacks the top border
-
-the Y,p thing is weird, it's got the extra border

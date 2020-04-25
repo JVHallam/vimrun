@@ -1,0 +1,8 @@
+          (  d,w  )
+
+
+--> There XXX some useless XXX blocks in this XXX line.
+==> There some useless blocks in this line.
+
+--> There are a some words fun that don't belong paper in this line.
+==> There are some words that don't belong in this line.
