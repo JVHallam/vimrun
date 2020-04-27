@@ -1,11 +1,15 @@
 $Project=$args[0];
-$TempDirectory = "$($env:TEMP)\$($Project)"
+$dirname = "$($env:TEMP)\$($Project)"
 
-if( !(Test-Path $TempDirectory) ){
-	mkdir $TempDirectory;
+if( !(Test-Path $dirname) ){
+	mkdir $dirname;
 }
 else{
-	rm "$($TempDirectory)/*";
+	rm "$($dirname)/*";
 }
-vim "resources/$($Project)/*" "+tab all" "+tabdo exec 'write' '$($TempDirectory)/' . expand('%:t')" "+qall";
-vim "$($TempDirectory)/*" "+tab all"; 
+# vim "resources/$($Project)/*" "+tab all" "+tabdo exec 'write' '$($dirname)/' . expand('%:t')" "+qall";
+# vim "$($dirname)/*" "+tab all"; 
+
+vim output.txt -c "source resources/tabbed_allthings.vimscript"
+# mv output.txt $dirname
+# vim $dirname/* -c "tab all";

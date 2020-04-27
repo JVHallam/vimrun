@@ -45,4 +45,4 @@ endfor
 " Delete them
 exec "1,4 d"
 
-" exec "wq"
+exec "wq"

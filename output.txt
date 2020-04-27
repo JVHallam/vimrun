@@ -1,31 +1,6 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-            (  J  )
-            
-  
---> This
-    is
-    an
-    example
-    for the
-    capital J command.
-
-==> This is an example for the capital J command.
-
-
---> Join this
-      
-    line
-    together
-    too.
-
-==> Join this line together too.
-
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
             (  a  )
 
 
@@ -44,6 +19,215 @@
 
 --> There is some text missing from th
 ==> There is some text missing from this line.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+          (  c, e  )
+
+
+--> This lubw has a few wptfd that mrrf changing usf the change operator.
+==> This line has a few words that need changing using the change operator.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+           ( ( and ) )
+
+
+  This is a sentence. This sentence follows. Then this one.
+  This is also
+  a sentence.
+  You can jump through them using the ( and ) keys. They're useful.
+  A. Sentence. Is. Denoted. By. A. Full. Stop.
+
+  They're super useful keys, especially when you're being super lazy.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+           (  c, i, s  )
+
+
+--> This is sentence one. XXX XXX XXX XXX XXXX. This is sentence three. 
+==> This is sentence one. This is sentence two. This is sentence three. 
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+           (  c, i, t  )
+
+
+--> <li> This is a super wrong block </li>
+==> <li> This is correct </li>
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+           (  c, i, <  )
+
+
+--> <img> Wrong use of tags <p>
+==> <div> Right use of tags </div>
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+           (  c, i, (  )
+
+
+--> function_call( bad_var, terrible_var, error_var );
+==> function_call( good_var );
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+           (  c, i, "  )
+
+
+--> I forgot how to "kwote" something
+==> I forgot how to "quote" something
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+          (  :s/errorr/error/g  )
+
+
+--> I've made many an errorr before, I hope that errorr are no more.
+==> I've made many an error before, I hope that error are no more.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+          ( CTRL + d )
+
+
+
+          ( CTRL + u )
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+            ( { or } )
+
+
+  With the { and } operators.
+  You can quickly jump through paragraphs of text.
+
+  It's a super useful operator.
+
+  Personally, i'm quite lazy. Therefore,
+  it's so much easier for me to bash the 
+  } key repeatedly, so that i can move through text
+  instead of using the jump queue.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+          (  C  )
+
+
+--> The end of this line needs to be corrected | - i don't care how. - |
+==> The end of this line needs to be corrected using the  C  command.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+           (  d, a, p  )
+
+
+==> REMOVE LOREM
+
+
+  This is a useful
+  paragraph that
+  has alot of content.
+
+  Lorem ipsum dolor sit amet, 
+  consectetur adipiscing elit. 
+  Maecenas id varius eros, eget lacinia augue. 
+
+  This is some more content, 
+  don't delete this.
+
+
+==> ORDER TEXT
+
+
+  3 ) This is the third paragraph.
+  This goes at the bottom.
+
+  1 ) This is the first 
+  paragraph.
+  This one goes at the top.
+
+  2 ) This is the second paragraph.
+  This goes in the middle.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+           (  d, a, s  )
+
+
+--> This is sentence one. XXX XXX XXX XXX. This is sentence two.
+==> This is sentence one. This is sentence two.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+           (  d, a, <  )
+
+
+--> <div><bad> Tag </bad></div>
+==> <div> Tag </div>
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+           (  d, a, "  )
+
+
+--> I decided to put a "SUPER USEFUL" useless string in this sentence.
+==> I decided to put a useless string in this sentence.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+          ( dd, p  )
+
+
+==> 4) Can you learn too?
+==> 2) Violets are blue,
+==> 3) Intelligence is learned,
+==> 1) Roses are red,
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+           (  d, i, (  )
+
+
+--> function_call( uneeded_var, super_unneeded_var ); 
+==> function_call(); 
 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -107,93 +291,6 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-           (  d, a, <  )
-
-
---> <div><bad> Tag </bad></div>
-==> <div> Tag </div>
-
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-           (  d, a, "  )
-
-
---> I decided to put a "SUPER USEFUL" useless string in this sentence.
-==> I decided to put a useless string in this sentence.
-
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-           (  d, a, p  )
-
-
-==> REMOVE LOREM
-
-
-  This is a useful
-  paragraph that
-  has alot of content.
-
-  Lorem ipsum dolor sit amet, 
-  consectetur adipiscing elit. 
-  Maecenas id varius eros, eget lacinia augue. 
-
-  This is some more content, 
-  don't delete this.
-
-
-==> ORDER TEXT
-
-
-  3 ) This is the third paragraph.
-  This goes at the bottom.
-
-  1 ) This is the first 
-  paragraph.
-  This one goes at the top.
-
-  2 ) This is the second paragraph.
-  This goes in the middle.
-
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-           (  d, a, s  )
-
-
---> This is sentence one. XXX XXX XXX XXX. This is sentence two.
-==> This is sentence one. This is sentence two.
-
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-          ( dd, p  )
-
-
-==> 4) Can you learn too?
-==> 2) Violets are blue,
-==> 3) Intelligence is learned,
-==> 1) Roses are red,
-
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-           (  d, i, (  )
-
-
---> function_call( uneeded_var, super_unneeded_var ); 
-==> function_call(); 
-
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
           (  e, x  )
 
 
@@ -208,6 +305,14 @@
 
 
 ==> ( f, | ) will jump you from the start of this line to the end |
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+          ( CTRL + o  -> Return to last spot )
+
+          ( gg        -> Top                 )
 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -230,19 +335,36 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-          ( CTRL + o  -> Return to last spot )
-
-          ( gg        -> Top                 )
-
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
           (  i  )
 
 
 --> There is text misng this .
 ==> There is some text missing from this line.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+            (  J  )
+            
+  
+--> This
+    is
+    an
+    example
+    for the
+    capital J command.
+
+==> This is an example for the capital J command.
+
+
+--> Join this
+      
+    line
+    together
+    too.
+
+==> Join this line together too.
 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -338,6 +460,27 @@ Then:
 ==> <p>   This is an h2 </h2>
 ==> <h3>  h3 this is also an h2 </h2>
 ==> <a>   These tags need help </h2>
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+          (  r, <any key>  )
+
+
+--> Whan this lime was tuoed in, someone presswd some wrojg keys!
+==> When this line was typed in, someone pressed some wrong keys!
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+            (  R  )
+
+  
+--> Adding XXX to XXX gives you XXX.
+==> Adding 123 to 456 gives you 579.
+
 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
