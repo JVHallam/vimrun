@@ -2,5 +2,6 @@
 
 dirname="/tmp/vimrun$RANDOM"
 mkdir $dirname;
-cp resources/vimrun/* $dirname/;
+vim output.txt -c "source resources/tabbed_allthings.vimscript"
+mv output.txt $dirname
 time vim $dirname/* -c "tab all";
