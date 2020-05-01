@@ -1,12 +1,7 @@
 " Global config variables
 let dividerPath = "resources/divider.txt"
 
-let directoryList=[
-	"essentials",
-	"deletion_motions",
-	"replacement_motions",
-	"uncatagorised"
-]
+let directoryList=[ "essentials", "deletion_motions", "replacement_motions", "uncatagorised" ]
 
 function CopyAllLinesToArray( outputArray )
   let i = 0
