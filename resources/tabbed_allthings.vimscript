@@ -1,54 +1,52 @@
 " Global config variables
 let dividerPath = "resources/divider.txt"
 
-let directoryList=[ "essentials", "deletion_motions", "replacement_motions", "uncatagorised" ]
+" [ originalDirectoryName, outputFileName ]
+" let directoryList=[ "essentials", "deletion_motions", "replacement_motions", "uncatagorised" ]
+let directoryList=[
+\   ["essentials","1_essentials"],
+\   ["deletion_motions","2_deletion"],
+\   ["replacement_motions","3_replacement"],
+\   ["uncatagorised","4_uncatagorised"],
+\   ["exit", "5_exiting" ]
+\]
 
-function CopyAllLinesToArray( outputArray )
-  let i = 0
-  let end = line('$')
+function RunForOneDirectory( directory, outputFileName )
+    exec "edit" a:outputFileName . ".vimrun"
 
-  while( i <= end )
-    let curLine = getline(i)
+    " Dump all the file names into the file
+    let allFiles = globpath('resources/modular_vimrun/' . a:directory,'**/*.txt')
+    let outputList = split( allFiles )
 
-    if strlen( curLine ) > 0
-      call add( a:outputArray, curLine )
-    endif
-    let i = i + 1
-  endwhile
+    " delete the contents of the file
+    " still needs doing
+    exec "% d"
+
+    " put the first divider in, to top off the file
+    exec "read" g:dividerPath
+
+    for fileName in outputList
+      " Jump to the end of the file
+      let endOfFile = line('$')
+      call cursor(l:endOfFile, 0)
+
+      " put in the divider
+      exec "read" g:dividerPath
+
+      " put in the, above it
+      exec "read" fileName
+
+    endfor
+
+    " Top 4 lines of the file are whitespace
+    " Delete them
+    exec "1,4 d"
+    exec "w"
 endfunction
 
-" ============== Actual Execution ==================
-let outputList = []
-
-" function runForOneDirectory( directory )
-
-" Dump all the file names into the file
-put =globpath('resources/modular_vimrun','**/*.txt')
-
-" for every line in the file, copy it's value into an array
-call CopyAllLinesToArray( outputList )
-
-" delete the contents of the file
-" still needs doing
-exec "% d"
-
-" put the first divider in, to top off the file
-exec "read" dividerPath
-
-for fileName in outputList
-  " Jump to the end of the file
-  let endOfFile = line('$')
-  call cursor(endOfFile, 0)
-
-  " put in the divider
-  exec "read" dividerPath
-
-  " put in the, above it
-  exec "read" fileName
+" ==== Actual execution ====
+for pair in directoryList
+    call RunForOneDirectory( pair[0], pair[1] )
 endfor
 
-" Top 4 lines of the file are whitespace
-" Delete them
-exec "1,4 d"
-
-exec "wq"
+" exec "wqall!"

@@ -1,4 +1,6 @@
-           (  w, x  ) 
+           ( :<linenumber> ) 
 
 
--> Its jjust a fflesh wwound.
+--> :+2 to jump down 2 lines
+
+--> :<line> to jump to the next exercise
