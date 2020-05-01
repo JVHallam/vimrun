@@ -1,15 +1,3 @@
-* Atomic file structure
-	* Take each exercise
-	* Put it into it's own file
-	* The file start with the exercise name ( w, x ), for example
-	* ends with the final line of the exercise
-	* no additional white space, borders, etc.
-
-	* for each exercise:
-		* create a new file ( the exercise name, without :, ',', etc. )
-		* copy the exercise in
-		* save it
-
 * Queue based practise ( first super basic SRS approach ):
 	* Break all the existing exercises into their own files
 	* have a directory for each type of file ( movement, deletion, etc. )
