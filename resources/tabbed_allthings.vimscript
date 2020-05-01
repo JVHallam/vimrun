@@ -49,4 +49,4 @@ for pair in directoryList
     call RunForOneDirectory( pair[0], pair[1] )
 endfor
 
-" exec "wqall!"
+exec "wqall!"
