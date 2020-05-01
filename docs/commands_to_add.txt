@@ -38,6 +38,11 @@ What are the essentials of vim:
   Autocomplete:
     -> CTRL + P to autocomplete a word, have a quick section on the usage of that
 
+$:
+	I currently use "A" to jump to the end of a line, then esc
+	$ would be a nice little thing to remember to use, for cursor movement.
+
+
 Additional movement:
   CTRL + i 
 

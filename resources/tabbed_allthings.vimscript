@@ -1,3 +1,13 @@
+" Global config variables
+let dividerPath = "resources/divider.txt"
+
+let directoryList=[
+	"essentials",
+	"deletion_motions",
+	"replacement_motions",
+	"uncatagorised"
+]
+
 function CopyAllLinesToArray( outputArray )
   let i = 0
   let end = line('$')
@@ -12,12 +22,13 @@ function CopyAllLinesToArray( outputArray )
   endwhile
 endfunction
 
-" Global config variables
-let dividerPath = "resources/divider.txt"
+" ============== Actual Execution ==================
 let outputList = []
 
+" function runForOneDirectory( directory )
+
 " Dump all the file names into the file
-put =globpath('resources/modular_vimrun','*.txt')
+put =globpath('resources/modular_vimrun','**/*.txt')
 
 " for every line in the file, copy it's value into an array
 call CopyAllLinesToArray( outputList )

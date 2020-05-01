@@ -10,6 +10,6 @@ else{
 # vim "resources/$($Project)/*" "+tab all" "+tabdo exec 'write' '$($dirname)/' . expand('%:t')" "+qall";
 # vim "$($dirname)/*" "+tab all"; 
 
-vim output.txt -c "source resources/tabbed_allthings.vimscript"
-# mv output.txt $dirname
-# vim $dirname/* -c "tab all";
+vim -c "source resources/tabbed_allthings.vimscript"
+mv output* $dirname
+vim $dirname/* -c "tab all";
