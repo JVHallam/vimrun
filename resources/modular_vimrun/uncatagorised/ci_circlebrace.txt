@@ -1,5 +1,0 @@
-           (  c, i, (  )
-
-
---> function_call( bad_var, terrible_var, error_var );
-==> function_call( good_var );

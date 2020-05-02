@@ -1,5 +1,0 @@
-           (  d, a, <  )
-
-
---> <div><bad> Tag </bad></div>
-==> <div> Tag </div>

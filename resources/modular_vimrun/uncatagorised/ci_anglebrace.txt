@@ -1,5 +1,0 @@
-           (  c, i, <  )
-
-
---> <img> Wrong use of tags <p>
-==> <div> Right use of tags </div>

@@ -5,10 +5,12 @@ let dividerPath = "resources/divider.txt"
 " let directoryList=[ "essentials", "deletion_motions", "replacement_motions", "uncatagorised" ]
 let directoryList=[
 \   ["essentials","1_essentials"],
-\   ["deletion_motions","2_deletion"],
-\   ["replacement_motions","3_replacement"],
-\   ["uncatagorised","4_uncatagorised"],
-\   ["exit", "5_exiting" ]
+\   ["movement","2_essentials"],
+\   ["insertion","3_insertion"],
+\   ["deletion_motions","4_deletion"],
+\   ["replacement_motions","5_replacement"],
+\   ["uncatagorised","6_uncatagorised"],
+\   ["exit", "7_exiting" ]
 \]
 
 function RunForOneDirectory( directory, outputFileName )

@@ -1,5 +1,0 @@
-           (  c, i, s  )
-
-
---> This is sentence one. XXX XXX XXX XXX XXXX. This is sentence three. 
-==> This is sentence one. This is sentence two. This is sentence three. 
