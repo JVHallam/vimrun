@@ -6,8 +6,7 @@
     an
     example
     for the
-    capital J command.
-
+    capital J command.  
 ==> This is an example for the capital J command.
 
 
@@ -15,6 +14,5 @@
       
     line
     together
-    too.
-
+    too.  
 ==> Join this line together too.
