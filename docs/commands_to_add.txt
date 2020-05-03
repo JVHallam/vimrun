@@ -22,6 +22,9 @@ What are the essentials of vim:
   G, and g, and possibly CTRL + o:
     Seperate them. 
 
+  F<key>:
+   It'd be nice to know how to go backwards as well as forwards. 
+
   #,#:command:
     This is selecting a block of text by line numbers.
     Pretty damned useful for deleting, copying, indenting blocks of text.

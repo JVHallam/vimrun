@@ -1,3 +1,38 @@
+* Bulk up practises:
+    * Any exercise that has multiple lines in it, split them out into multiple exercises
+        * movement:
+            * line number can be split
+        * insertion
+            * A
+            * o || O => can have 2 more exercises made out of this
+
+            * Yp -> the lines needs swapping round
+
+        * deletion:
+            * d,w -> needs splitting
+
+        * special:
+            * Marco
+            * search
+                * Can definitely be broken down WAY FURTHER
+
+    * For each section, i need to have 33 ( 2^5 ) exercises, for the SRS system i want to implement
+    * Implement the XXX and --- idea, to show how things move, without text
+        * deletion, definitely needs an example of this
+
+    * Current count:
+        * replacement : 18 -> +15 required
+        * Deletion : 16 -> +17 required
+        * insertion : 5 -> +28 required
+        * movement : 5 -> +28 required
+        * special : 4 -> +29 required
+        * exit : Should stay as 1
+
+* Cleanup the commands_to_add file:
+    * There is no standard to the current layout
+    * Re-arrange the file to match the current directory structure
+    * Reformat it into a markdown file. 
+
 * Queue based practise ( first super basic SRS approach ):
 	* Create a temp execution directory?
 	* Inside is a file for each directory type ( movement, deletion, etc. )
