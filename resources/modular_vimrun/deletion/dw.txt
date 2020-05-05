@@ -1,0 +1,5 @@
+          (  d,w  )
+
+
+--> There XXX some useless XXX blocks in this XXX line.
+==> There some useless blocks in this line.

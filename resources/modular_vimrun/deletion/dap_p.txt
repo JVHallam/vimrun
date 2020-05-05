@@ -1,0 +1,14 @@
+           (  d, a, p, p  )
+
+==> ORDER TEXT
+
+
+  3 ) This is the third paragraph.
+  This goes at the bottom.
+
+  1 ) This is the first 
+  paragraph.
+  This one goes at the top.
+
+  2 ) This is the second paragraph.
+  This goes in the middle.
