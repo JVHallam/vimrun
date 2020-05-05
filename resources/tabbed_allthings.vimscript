@@ -15,8 +15,6 @@ let directoryList=[
 
 " project => name of the modular_vimrun directory ( "insertion", "special", "etc" )
 function SetupSingleSession( project )
-    " Can vim create a directory if it does not already exist
-    !mkdir temp
 
     let filesString = globpath("resources/modular_vimrun/" . a:project, "*")
     let filesArray = split( filesString )
@@ -82,7 +80,23 @@ function RunForOneDirectory( fileList, outputFileName )
     exec "w"
 endfunction
 
+function InitEnvironment()
+    " Setup the local temp directory, to hold sessions
+    if( isdirectory( "temp" ) == 0 )
+        silent !mkdir "temp"
+    endif
+
+    " Setup the output Directory
+    " let dirname = $TEMP . "\\vimrun"
+    " This needs creating
+endfunction
+    
+
 " ============================= Main ========================================================
+" Create the temp directory if it doesn't already exist
+call InitEnvironment()
+
+" Create the files
 for pair in directoryList
     " Create the temp file
     call SetupSingleSession( pair[0] )
