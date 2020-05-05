@@ -2,15 +2,13 @@
 let dividerPath = "resources/divider.txt"
 
 " [ originalDirectoryName, outputFileName ]
-" let directoryList=[ "essentials", "deletion_motions", "replacement_motions", "uncatagorised" ]
 let directoryList=[
-\   ["essentials","1_essentials"],
-\   ["movement","2_essentials"],
-\   ["insertion","3_insertion"],
-\   ["deletion_motions","4_deletion"],
-\   ["replacement_motions","5_replacement"],
-\   ["uncatagorised","6_uncatagorised"],
-\   ["exit", "7_exiting" ]
+\   ["movement","1_movement"],
+\   ["insertion","2_insertion"],
+\   ["deletion","3_deletion"],
+\   ["replacement","4_replacement"],
+\   ["special","5_special"],
+\   ["exit", "6_exiting" ]
 \]
 
 function RunForOneDirectory( directory, outputFileName )
@@ -21,7 +19,6 @@ function RunForOneDirectory( directory, outputFileName )
     let outputList = split( allFiles )
 
     " delete the contents of the file
-    " still needs doing
     exec "% d"
 
     " put the first divider in, to top off the file
