@@ -11,20 +11,59 @@ let directoryList=[
 \   ["exit", "6_exiting" ]
 \]
 
-function RunForOneDirectory( directory, outputFileName )
-    exec "edit" a:outputFileName . ".vimrun"
+" ============================= Functions ========================================================
 
-    " Dump all the file names into the file
-    let allFiles = globpath('resources/modular_vimrun/' . a:directory,'**/*.txt')
-    let outputList = split( allFiles )
+" project => name of the modular_vimrun directory ( "insertion", "special", "etc" )
+function SetupSingleSession( project )
+    " Can vim create a directory if it does not already exist
+    !mkdir temp
 
-    " delete the contents of the file
-    exec "% d"
+    let filesString = globpath("resources/modular_vimrun/" . a:project, "*")
+    let filesArray = split( filesString )
+
+    " Grab the corresponding session file from temp/
+    execute 'e' "temp/" . a:project
+    " incase the file doesn't already exist, save it
+    exec 'w'
+
+    for file in filesArray
+        " Put the current variable into the top of the file, if not already present
+        " match( readfile(expand("%:p) )
+        let fileContents = readfile(expand("%:p"))
+        let fileIndex = index(fileContents, file)
+
+        if ( fileIndex == -1 )
+            call cursor(0, 0)
+            exec "norm" "O"
+            put =file
+            break            
+        endif
+    endfor
+
+    " clean up the file
+    exec "g/^$/d"
+
+    " Save
+    exec "w"
+endfunction
+
+function FetchSession( project, exerciseCount )
+    let fileLines = readfile("temp/" . a:project)
+    let wantedIndex = a:exerciseCount - 1
+    return fileLines[:wantedIndex]
+endfunction
+
+" This function needs:
+    " * A name change => something to do with setup files
+    " * To take a file list that needs to be conjoined, rather than use globpath
+    " * Continue as normal
+function RunForOneDirectory( fileList, outputFileName )
+    exec "e" a:outputFileName . ".vimrun"
 
     " put the first divider in, to top off the file
     exec "read" g:dividerPath
 
-    for fileName in outputList
+    for fileName in a:fileList
       " Jump to the end of the file
       let endOfFile = line('$')
       call cursor(l:endOfFile, 0)
@@ -43,9 +82,16 @@ function RunForOneDirectory( directory, outputFileName )
     exec "w"
 endfunction
 
-" ==== Actual execution ====
+" ============================= Main ========================================================
 for pair in directoryList
-    call RunForOneDirectory( pair[0], pair[1] )
+    " Create the temp file
+    call SetupSingleSession( pair[0] )
+
+    " Grab the list of exercise file names from the file
+    let fileList = FetchSession( pair[0], 5 )
+
+    " Run for a directory!
+    call RunForOneDirectory( fileList, pair[1] )
 endfor
 
 exec "wqall!"
