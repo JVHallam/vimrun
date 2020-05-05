@@ -33,30 +33,26 @@
     * Re-arrange the file to match the current directory structure
     * Reformat it into a markdown file. 
 
-* Queue based practise ( first super basic SRS approach ):
-	* Create a temp execution directory?
-	* Inside is a file for each directory type ( movement, deletion, etc. )
-    * Inside is a list of all exercises
-	* It takes the top, say, 5 exercises from each
-	* It removes them from the top and puts them on the bottom
-    * :1,5 d
-	* It also uses those exercises to run
-    * This happens within the .vimscript, passing these to the constructor function thingy
+* SRS:
+    * The script should pick 5 / 10 ( or so ) files to be used
+    * multiplier * 2^n-1, where:
+        * multiplier = ( Excercise count / 2^n )
+        * n is the exercise number ( 0,1,2,3,etc. )
+        * rounded up to the next int
 
-	* This way, we can have an extremely basic SRS system, that could super easily be expanded
-    * Have a script for updating the files
+    * So, you pick 5 exercises, with a total of 16 exercises total:
+        * multiplier = 16 / 2^5 => 16 / 32 => 0.5
+        * 2^0 * 0.5 => 0.5 => 1
+        * 2^1 * 0.5 => 1
+        * 2^2 * 0.5 => 2
+        * 2^3 * 0.5 => 4
+        * 2^4 * 0.5 => 8
 
-	* Could also have it randomise the order. That'd be cool.
-	* let next exercise = rand() % 50, then 49, 48, etc.
+    * Then, if the results match, shimy the next ones up by one
 
-* Basic queue growth:
-  * The file that contains the queue, starts off with only 5.
-  * Every time vimrun is ran, it adds 2 more that aren't already in the list, to the top
-  * Then executes like normal
+    * If the number of exercises in the file = the number of exercises total, remove the final line from the file
 
-* Periodically growing the queue?
-  * This could be done with a psuedo spiral, right?
-  * There has to be a way of implementing the spiral i can visualise, but not describe
+    * :echo pow( 2, 0 ) => 1
 	
 * file browsing exercise:
 	* In one tab, you have the list of commands to do
