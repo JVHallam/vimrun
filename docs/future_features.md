@@ -33,11 +33,6 @@
     * Re-arrange the file to match the current directory structure
     * Reformat it into a markdown file. 
 
-* Fix the initial setup:
-    * If the number of lines in the temp file != the number of files in the directory:
-        * Clean out the file
-        * Update it to contain everything
-
 * SRS:
     * The script should pick 5 / 10 ( or so ) files to be used
     * multiplier * 2^n-1, where:
@@ -58,6 +53,15 @@
     * If the number of exercises in the file = the number of exercises total, remove the final line from the file
 
     * :echo pow( 2, 0 ) => 1
+
+* Syncronising sessions:
+    * Upon running vimrun
+        * SFTP into the server
+        * grab the file
+        * compare the 2 ( check if the current is later than the server )
+        * Either get the latest from the server or do nothing
+        * create the next session
+        * put that version to the server
 	
 * file browsing exercise:
 	* In one tab, you have the list of commands to do
