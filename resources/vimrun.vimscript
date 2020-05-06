@@ -20,10 +20,13 @@ function SetupSingleSession( project )
     let filesArray = split( filesString )
 
     " Grab the corresponding session file from temp/
-    execute 'e' "temp/" . a:project
-
     " incase the file doesn't already exist, save it as we read from it later
+    execute 'e' "temp/" . a:project
     exec 'w'
+
+    " Remove the last line in the file, so that it gets put to the top 
+    execute line('$') . 'd'
+    exec "w"
 
     " If the length of the temp file != count of number of files
     " Find the files that aren't already in there and put them in at the top
@@ -32,18 +35,12 @@ function SetupSingleSession( project )
         let fileIndex = index(fileContents, file)
 
         if ( fileIndex == -1 )
-            call cursor(0, 0)
-            exec "norm" "O"
-            put =file
+            exec "0 put =file"
         endif
     endfor
 
     " Remove some empty lines
     exec "g/^$/d"
-
-    " Remove the last file, so that it gets put to the top in the next call
-    " Move the cursor to the final line
-    " Delete the line
 
     " Save
     exec "w"
