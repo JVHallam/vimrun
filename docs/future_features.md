@@ -33,6 +33,11 @@
     * Re-arrange the file to match the current directory structure
     * Reformat it into a markdown file. 
 
+* Fix the initial setup:
+    * If the number of lines in the temp file != the number of files in the directory:
+        * Clean out the file
+        * Update it to contain everything
+
 * SRS:
     * The script should pick 5 / 10 ( or so ) files to be used
     * multiplier * 2^n-1, where:
