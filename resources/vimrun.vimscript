@@ -46,8 +46,42 @@ function SetupSingleSession( project )
     exec "w"
 endfunction
 
+" Wanted exercise count => The amount of exercises that are going to be ran in the next session
+" total exercise count => the total number of exercises available 
+function CreateExerciseIndexArray( wantedExerciseCount, totalExerciseCount )
+    let multiplier = a:totalExerciseCount / pow(2, a:wantedExerciseCount )
+
+    " Create the initial array, increasing by the powers of 2
+    let i = 0
+    let array=[]
+    while i < a:wantedExerciseCount
+        let value = ceil(pow(2, i) * multiplier)
+        call add( array, value )
+        let i = i + 1
+    endwhile
+
+    " All values in the sequence should be greater than the previous value
+    " If there are any values that are equal to or below the previous value
+    " Set it to be one above that value
+    let i = 1
+    while i < len( array )
+        if( array[i - 1] >= array[i] )
+            let array[i] = array[i - 1] + 1
+        endif
+
+        let i = i + 1
+    endwhile
+
+    return array
+endfunction
+
 function FetchSession( project, exerciseCount )
     let fileLines = readfile("temp/" . a:project)
+    
+    let wantedIndexes = CreateExerciseIndexArray( a:exerciseCount, len(fileLines) )
+    echo "Wanted indexes"
+    echo wantedIndexes
+
     let wantedIndex = a:exerciseCount - 1
     return fileLines[:wantedIndex]
 endfunction
