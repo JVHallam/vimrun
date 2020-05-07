@@ -55,7 +55,9 @@ function CreateExerciseIndexArray( wantedExerciseCount, totalExerciseCount )
     let i = 0
     let array=[]
     while i < a:wantedExerciseCount
-        let value = ceil(pow(2, i) * multiplier)
+        " pow(2, i) can never go below 1. Therefore, offset it by -1
+        let rawValue = ceil(pow(2, i) * multiplier) - 1
+        let value = float2nr( rawValue )
         call add( array, value )
         let i = i + 1
     endwhile
@@ -76,20 +78,22 @@ function CreateExerciseIndexArray( wantedExerciseCount, totalExerciseCount )
 endfunction
 
 function FetchSession( project, exerciseCount )
+    let wantedExercises = []
     let fileLines = readfile("temp/" . a:project)
     
     let wantedIndexes = CreateExerciseIndexArray( a:exerciseCount, len(fileLines) )
-    echo "Wanted indexes"
-    echo wantedIndexes
 
-    let wantedIndex = a:exerciseCount - 1
-    return fileLines[:wantedIndex]
+    for wantedIndex in wantedIndexes
+        if( wantedIndex >= len( fileLines ) )
+            break
+        endif
+
+        call add( wantedExercises, fileLines[ wantedIndex ] )
+    endfor
+
+    return wantedExercises
 endfunction
 
-" This function needs:
-    " * A name change => something to do with setup files
-    " * To take a file list that needs to be conjoined, rather than use globpath
-    " * Continue as normal
 function RunForOneDirectory( fileList, outputFileName )
     exec "e" a:outputFileName . ".vimrun"
 
@@ -137,10 +141,10 @@ for pair in directoryList
     call SetupSingleSession( pair[0] )
 
     " Grab the list of exercise file names from the file
-    let fileList = FetchSession( pair[0], 10 )
+    let fileList = FetchSession( pair[0], 5 )
 
     " Run for a directory!
     call RunForOneDirectory( fileList, pair[1] )
 endfor
 
-exec "wqall!"
+" exec "wqall!"
