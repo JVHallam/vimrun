@@ -147,4 +147,4 @@ for pair in directoryList
     call RunForOneDirectory( fileList, pair[1] )
 endfor
 
-" exec "wqall!"
+exec "wqall!"
