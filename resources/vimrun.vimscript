@@ -141,7 +141,7 @@ for pair in directoryList
     call SetupSingleSession( pair[0] )
 
     " Grab the list of exercise file names from the file
-    let fileList = FetchSession( pair[0], 5 )
+    let fileList = FetchSession( pair[0], 10 )
 
     " Run for a directory!
     call RunForOneDirectory( fileList, pair[1] )
