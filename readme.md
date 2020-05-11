@@ -1,18 +1,23 @@
-V I M R U N 
+VIMRUN 
 ===
 
 ## What?
 
-Vimrun is bash script, that sets up a VIM session with a number of exercises loaded into tabs.
-It's a way that allows me to practise all parts of vim, daily.
+Vimrun is vimtutor 2.0. 
+I've put together groups of exercises
+A circular srs system, so you never get the same group of exercises everytime.
 
-Essentially, it's Vimtutor without the fluff.
+You run it, it loads a group of exercises into tabs and you can just go ahead and do it in your own time.
 
 ## Why?
-Vim is difficult. The benefits of using VIM are very quickly lost, if you wind up on stack overflow every 15 minutes, asking about it's features. Therefore, i created a script for myself, to allow myself to practise more.
+Vim is extremely complex. If i spend half my time trying to remember commands, then it's as good as worthless. If i can remember situations in which to use alot of useful commands, then it becomes and extremely efficient tool.
 
-Vimtutor was the only alternative i could find, and that was garbage. Atleast 90% of the file was explanations, not a good resource for daily practise.
+Other tools out there never felt sufficient. Other resources never felt like they quite were up to par:
+
+* Reading documentation alone required me to keep referencing them whilst working
+* Vim adventures ran in the browser and restricted you to only the unlocked keys
+* Vimtutor is not replayable past the first week
 
 ## How to run?
 * Clone the repo
-* Run the script, with vim installed
+* Run the relevant script in the run_scripts directory
