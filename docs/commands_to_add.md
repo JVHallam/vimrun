@@ -15,6 +15,8 @@
 * marks, setting and moving 
     * ma => mark a, `a => go to a, ]' next, [' previous
 
+* SHIFT + h, m, l => jumping to different portions of the screen
+
 # Replacement
 * cc -> replace line
 * visual mode u and U => changing selection CASE
@@ -37,6 +39,9 @@
 * Ctrl+x Decrement number under cursor
 * :set spell => set spelllang=en_gb => ]s, [s, z=
 * registers => "a
+            => ""
+            => "0
+
 * '*' => search for What's under the cursor
 
 # Commandline mode:
