@@ -1,17 +1,6 @@
-          (  /term  )
-
-
-(  set :hls       -> high light search  )
-
-(  /errorr         -> errorr              )
+          (  /\cterm  )
 
 (  /\cerrorr       -> ErRoR  && errorr    )
-
-(  n              -> Forwards           )
-
-(  N              -> Backwards          )
-
-(  :nohls         -> Clear highlights   )
 
 ==> When the guys were writing this tutorial, they used the word "errorr" 
     to empahsise the use of the search tool. I believe that just using

@@ -1,0 +1,17 @@
+          (  /term  )
+
+
+(  /errorr         -> errorr              )
+
+(  n              -> Forwards           )
+
+==> When the guys were writing this tutorial, they used the word "errorr" 
+    to empahsise the use of the search tool. I believe that just using
+    "errorr" and not throwing in "eRrOrr" and "Errorr" was an errorr.
+    You're not forced to try and use the ignore case setting at this point.
+    Also, it's an errorr for you not to use hlsearch, it makes life easier
+    when searching through a crappy block of text, to find instances of
+    errorrs.
+    Errorrs are natural part of programming. The best programmer isn't the 
+    one who can just avoid making errorrs, but one who can also fix them 
+    when they arise.
