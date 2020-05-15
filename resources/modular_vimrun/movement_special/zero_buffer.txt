@@ -1,0 +1,9 @@
+            ( "0p )
+
+--> Yank this line
+--> Delete this line
+--> Paste the yanked line below here
+
+==> Yank this line
+==> Paste the yanked line below here
+==> Yank this line

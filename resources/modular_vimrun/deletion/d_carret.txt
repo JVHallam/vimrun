@@ -1,0 +1,4 @@
+            ( d, ^ )
+
++=> This is extrenous | --> I deleted from the arrow, back to the start of the line
+==> I deleted from the arrow, back to the start of the line

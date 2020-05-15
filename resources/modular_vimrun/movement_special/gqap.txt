@@ -1,0 +1,10 @@
+            ( gqap )
+
+--> This is
+    A paragraph
+    that was on seperate
+    lines
+    but is now
+    on one line.
+
+==> This is A paragraph that was on seperate lines but is now on one line.

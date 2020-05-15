@@ -3,12 +3,10 @@ let dividerPath = "resources/divider.txt"
 
 " [ originalDirectoryName, outputFileName ]
 let directoryList=[
-\   ["movement","1_movement"],
-\   ["insertion","2_insertion"],
-\   ["deletion","3_deletion"],
-\   ["replacement","4_replacement"],
-\   ["special","5_special"],
-\   ["exit", "6_exiting" ]
+\   ["movement_special","1_movement_special"],
+\   ["deletion","2_deletion"],
+\   ["insert_replace","3_insert_replace"],
+\   ["exit", "4_exiting" ]
 \]
 
 " ============================= Functions ========================================================

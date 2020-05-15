@@ -1,0 +1,5 @@
+            ( d, b )
+
+
+--> Excess XXat XXthe start of XXwords, can be removed.
+==> Excess at the start of words, can be removed.

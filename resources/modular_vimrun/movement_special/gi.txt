@@ -1,0 +1,4 @@
+            ( g, i )
+
+--> Fix this line, then esc, Then move. Then hit gi.
+==> Fix this line, then esc. Then hit gi.
