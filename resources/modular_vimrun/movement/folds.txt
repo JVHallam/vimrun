@@ -1,0 +1,9 @@
+            ( zfip )
+
+--> zfip will fold this up
+--> It will also fold this with it
+--> And this
+
+            ( zo )
+
+            ( zc )
