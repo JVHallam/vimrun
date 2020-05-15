@@ -1,0 +1,4 @@
+            (  t,<key>  )
+
+
+==> ( t, | ) will jump you from the start of this up to the end of the line, but before |

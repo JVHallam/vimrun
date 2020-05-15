@@ -1,0 +1,3 @@
+          ( CTRL + o  -> Return to last spot    )
+
+          ( CTRL + i  -> Redo the last movement )
