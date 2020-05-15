@@ -1,0 +1,5 @@
+            (  d, t, <key>  )
+
+
+--> This is a line with little |XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX| in it 
+==> This is a line with little || in it 
