@@ -1,0 +1,4 @@
+            ( visual mode, U )
+
+--> things look more energetic in upper case
+==> THINGS LOOK MORE ENERGETIC IN UPPER CASE

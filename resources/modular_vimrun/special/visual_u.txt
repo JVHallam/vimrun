@@ -1,0 +1,4 @@
+            ( visual mode, u )
+
+--> THE USE OF BLOCK CAPS IS UN-NEEDED
+==> the use of block caps is un-needed

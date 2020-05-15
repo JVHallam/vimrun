@@ -1,0 +1,3 @@
+            ( ctrl + wv, ctrl + r )
+
+==> If you have multiple windows, r rotates around them

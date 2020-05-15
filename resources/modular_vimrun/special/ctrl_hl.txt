@@ -1,0 +1,3 @@
+            ( ctrl + wv, ctrl + wh, ctrl + wl )
+
+==> Moving between windows is like moving between characters

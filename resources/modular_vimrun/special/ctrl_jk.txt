@@ -1,0 +1,3 @@
+            ( ctrl + ws, ctrl + wk, ctrl + wj )
+
+==> Moving between vertical windows is like moving between characters in a line 
