@@ -1,0 +1,3 @@
+            ( B ( upper ) )
+
+==> To. Move. Between. Words. Backwards. Is. B. b, lower, only, moves, between, tokens.
