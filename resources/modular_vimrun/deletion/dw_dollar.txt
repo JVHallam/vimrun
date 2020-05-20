@@ -1,4 +1,4 @@
-           ( 2dw, $, p )
+           ( d, W (upper), $, p )
 
 
 --> end. This sentence is a little out of order, there's no 

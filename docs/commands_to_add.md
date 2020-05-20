@@ -68,6 +68,11 @@
 * : tabdo
 * : bufdo
 
+* vimscript:
+    * echo vimscript allows you to run some vimscript
+    * call Cursor(2,0) will actually move you to that line
+    * let a = globpath("*", "."), also lets you call vimscript functions
+    * let a = 1 == 1 ? 1 : 0, yes, that's a ternary statement
 
 
 # Buffer commands:
