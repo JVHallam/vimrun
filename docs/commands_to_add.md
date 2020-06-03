@@ -50,6 +50,7 @@
             => ""
             => "0
             => "+
+            => "1 -> delete a line, delete another line, paste the first line
 
 * indentation
     * =G
@@ -61,6 +62,9 @@
 * declaring functions
 * calling functions
 * if statements
+* Mapping:
+    * nnoremap:
+        * :nnoremap <Up> :buffnext
 * ex-mode?  -> shift + q
 * read
 * write
@@ -73,7 +77,6 @@
     * call Cursor(2,0) will actually move you to that line
     * let a = globpath("*", "."), also lets you call vimscript functions
     * let a = 1 == 1 ? 1 : 0, yes, that's a ternary statement
-
 
 # Buffer commands:
 * :buffer
