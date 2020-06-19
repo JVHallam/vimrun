@@ -9,11 +9,21 @@
 
         * Go through any of the links in the doc and see if the above can be done for them too
 
+* Vimscript:
+    * You can source a file, then run the functions that are in it from the commandline.
+    * This will allow me to use vimscript, source the generated file, then manually call the functions
+    * You can call alot of vimscript functions from the commandline, using the "call" command
+    * getcurpos -> get's the cursor position
+    * There's literally no reason that i shouldn't add in some base level vimscript stuff
+    
+
 # Would be nice to have
 * file browsing exercise:
 	* In one tab, you have the list of commands to do
 	* In another tab, you have the file browser
 	* You move through setup directory and do things to files, like renaming and what not
+
+    * Tabs, Buffers, Windows, all would be nice to put together in the same set of exercises.
 
 * Syncronising sessions:
     * Upon running vimrun
