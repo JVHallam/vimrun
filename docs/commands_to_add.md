@@ -5,6 +5,10 @@
 # Insertion
 
 # Movement
+* ; and ,
+    * f<key>, then ; to repeat it, or , to go back in the opposite direction
+    * super useful, needs it's own section, asap!
+
 * marks, setting and moving 
     * ma => mark a, `a => go to a, ]' next, [' previous
     * ma -> 'a
