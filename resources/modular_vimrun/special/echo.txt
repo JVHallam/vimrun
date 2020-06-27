@@ -1,0 +1,4 @@
+           ( echo <variable> ) 
+
+
+==> echo getcurpos()

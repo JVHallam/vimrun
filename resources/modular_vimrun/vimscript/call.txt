@@ -1,0 +1,5 @@
+"               ( call CustomFunction )
+
+function CustomFunction()
+    echo "This is the custom function"
+endfunction
