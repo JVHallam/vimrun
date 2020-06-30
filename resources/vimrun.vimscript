@@ -10,7 +10,7 @@ let directoryList=[
 \   ["vimscript", "5_vimscript" ]
 \]
 
-let g:exercisesPerFile=15
+let g:exercisesPerFile=10
 
 " ============================= Functions ========================================================
 
