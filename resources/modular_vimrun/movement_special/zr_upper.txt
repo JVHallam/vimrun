@@ -1,0 +1,9 @@
+            ( zR )
+
+--> Fold here with zfip
+--> Then move onto the next
+
+--> Fold here with zfip
+--> Then move onto the next
+
+--> zR to unfold them both at the same time

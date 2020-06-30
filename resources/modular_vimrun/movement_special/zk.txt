@@ -1,0 +1,9 @@
+            ( zk )
+
+--> Fold this paragraph.
+--> can be done with zfip
+
+--> Fold this line.
+--> can be done with zfip
+
+--> Navigate upwards between them using zk

@@ -1,0 +1,9 @@
+            ( zj )
+
+--> Fold this paragraph.
+--> can be done with zfip
+
+--> Fold this line.
+--> can be done with zfip
+
+--> Navigate downwards between them using zj
