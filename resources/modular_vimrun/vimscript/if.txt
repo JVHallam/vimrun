@@ -1,0 +1,10 @@
+"           ( if, endif )
+
+"-> Create a function:
+"   * Takes an argument
+"   * If that argument != "yes" -> Echo it
+"   * Else -> echo "Sorry, i can't do that"
+
+"=> You'll need:
+"   * if( a:arg )
+"   * endif

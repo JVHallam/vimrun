@@ -1,0 +1,10 @@
+            ( vimgrep /a/g % )
+            ( :copen )
+
+--> Sometimes
+
+--> Matches are all over the places
+
+--> And i just want a single window
+
+--> That shows them all.

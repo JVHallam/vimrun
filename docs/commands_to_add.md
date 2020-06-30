@@ -1,35 +1,10 @@
 # Deletion
 
-# Exit
-
 # Insertion
 
 # Movement
-* ; and ,
-    * f<key>, then ; to repeat it, or , to go back in the opposite direction
-    * super useful, needs it's own section, asap!
-
-* marks, setting and moving 
-    * ma => mark a, `a => go to a, ]' next, [' previous
-    * ma -> 'a
-
-* folds:
-    * zj move to the next fold
-    * zk previous fold
-    * [z ]z moving between folds
-    * zR open all folds
 
 # Replacement
-* regex based search and replace:
-    * :s/\v(capturegroup)/This is the group -> \1/g
-    * \0 means the entire match
-    * \1 only means the capture group
-    * I could definitely use knowing this
-
-* Regex based lookaheads
-    * https://vim.fandom.com/wiki/Regex_lookahead_and_lookbehind
-
-" this is a penis "
 
 # Special
 * More macros!
@@ -46,29 +21,17 @@
     * :g/match/d
         * delete all lines that match match
         
-
-* CTRL + P => autocomplete previous word
-
 * :set spell => set spelllang=en_gb => ]s, [s, z=
-* registers => "a
-            => ""
-            => "0
-            => "+
-            => "1 -> delete a line, delete another line, paste the first line
 
 * indentation
     * =G
     * the =aw{ or something like that
 
 # Commandline and vimscript:
-* globpath(".", "*")
-* split( string )
-* declaring functions
-* calling functions
-* if statements
 * Mapping:
     * nnoremap:
         * :nnoremap <Up> :buffnext
+
 * ex-mode?  -> shift + q
 * read
 * write
@@ -77,10 +40,6 @@
 * : bufdo
 
 * vimscript:
-    * echo vimscript allows you to run some vimscript
-    * call Cursor(2,0) will actually move you to that line
-    * let a = globpath("*", "."), also lets you call vimscript functions
-    * let a = 1 == 1 ? 1 : 0, yes, that's a ternary statement
 
 # Buffer commands:
 * :buffer

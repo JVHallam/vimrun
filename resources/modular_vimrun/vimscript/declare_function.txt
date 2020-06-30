@@ -1,0 +1,4 @@
+"            ( Custom Functions )
+
+"--> Create a function that echos the args that are input
+"--> a:arg is the access modifier
