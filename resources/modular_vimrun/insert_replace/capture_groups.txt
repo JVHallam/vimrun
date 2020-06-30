@@ -1,0 +1,4 @@
+            ( :s/(\(capture group\))/[\1] )
+
+-->( this )( is )( a )( line )( of )( square )( braces )
+-->[ this ][ is ][ a ][ line ][ of ][ square ][ braces ]

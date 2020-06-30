@@ -1,0 +1,6 @@
+            ( mi \(casa\)\@= )
+
+--> Only match "mi" if it's followed by casa
+
+==> mi casa es su casa
+==> mi not your casa

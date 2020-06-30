@@ -1,0 +1,6 @@
+            ( Negative Lookbehind )
+
+--> Grab the casa that's not preceeded by mi
+--> ( \(mi\)\@<! casa )
+
+==> mi casa es su casa, mi
