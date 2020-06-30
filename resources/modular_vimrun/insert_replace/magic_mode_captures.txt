@@ -1,0 +1,6 @@
+            ( Magic mode \v )
+
+            ( /\v(\w*/\1/g )
+
+--> ( this )( is )( some )( stuff )
+==> ( this )( is )( some )( stuff )
