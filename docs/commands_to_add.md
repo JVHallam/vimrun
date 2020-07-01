@@ -35,7 +35,6 @@
 * ex-mode?  -> shift + q
 * read
 * write
-* vimgrep
 * : tabdo
 * : bufdo
 

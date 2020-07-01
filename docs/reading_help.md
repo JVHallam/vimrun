@@ -6,11 +6,73 @@
 * create flash cards
 * create vimrun
 
+
+* Can't find good stuff on vimscript:
+    *   for i in list
+            echo s
+            continue
+            break
+        endfor
+
+    *   while x < 5
+        endwhile
+
+    * a is not b
+    * a is b
+
+    * regexp expressions
+        "hello" =~ '/x/'
+        "hello" !~ '/x/'
+
+    *   let longlist = mylist + [5, 6]
+        let mylist += [7, 8]
+
+        let alist = [1, 2, 3]
+        let alist = add(alist, 4)
+    *   call map(files, "bufname(v:val)")  " use v:val for value
+        call filter(files, 'v:val != ""')
+
+        let colors = {
+          \ "apple": "red",
+          \ "banana": "yellow"
+        }
+
+        echo colors["a"]
+        echo get(colors, "apple")
+
+        remove(colors, "apple")
+        " :help E715
+        if has_key(dict, 'foo')
+        if empty(dict)
+        keys(dict)
+        len(dict)
+        max(dict)
+        min(dict)
+        count(dict, 'x')
+        string(dict)
+        map(dict, '<>> " . v:val')
+
+        let extend(s:fruits, { ... })
+
+        augroup filetypedetect
+          au! BufNewFile,BufRead *.json setf javascript
+        augroup END
+
+        au Filetype markdown setlocal spell
+
 * index file length : 1700 lines
 
 * special command sections
     * window commands
         * index 518
+
+        * |CTRL-W_=|	CTRL-W =	   make all windows the same height & width
+|CTRL-W_H|	CTRL-W H	   move current window to the far left
+|CTRL-W_J|	CTRL-W J	   move current window to the very bottom
+|CTRL-W_K|	CTRL-W K	   move current window to the very top
+|CTRL-W_L|	CTRL-W L	   move current window to the far right
+|CTRL-W_n|	CTRL-W n	   open new window, N lines high
+|CTRL-W_o|	CTRL-W o	   close all but current window (like |:only|)
 
     * [ square bracket commands ]
         * 615
@@ -36,6 +98,63 @@
         * 1124
         * This is the files SUPER LONG BOI, at like, 600 lines
         * this will come in handy later
+|:!|		:!		filter lines or execute an external command
+|:!!|		:!!		repeat last ":!" command
+|:&|		:&		repeat last ":substitute"
+|:star|		:*		execute contents of a register
+|:@|		:@		execute contents of a register
+|:@@|		:@@		repeat the previous ":@"
+|:<|		:<		shift lines one 'shiftwidth' left
+|:=|		:=		print the cursor line number
+|:>|		:>		shift lines one 'shiftwidth' right
+|:Next|		:N[ext]		go to previous file in the argument list
+|:append|	:a[ppend]	append text
+|:abbreviate|	:ab[breviate]	enter abbreviation
+    * ab main int main( int argc, char** argv){<cr>}
+|:abclear|	:abc[lear]	remove all abbreviations
+|:all|		:al[l]		open a window for each file in the argument
+|:amenu|	:am[enu]	enter new menu item for all modes
+|:args|		:ar[gs]		print the argument list
+|:argadd|	:arga[dd]	add items to the argument list
+|:argdelete|	:argd[elete]	delete items from the argument list
+|:argedit|	:arge[dit]	add item to the argument list and edit it
+|:argdo|	:argdo		do a command on all items in the argument list
+|:ball|		:ba[ll]		open a window for each buffer in the buffer list
+|:badd|		:bad[d]		add buffer to the buffer list
+|:bdelete|	:bd[elete]	remove a buffer from the buffer list
+|:breakadd|	:breaka[dd]	add a debugger breakpoint
+|:breakdel|	:breakd[el]	delete a debugger breakpoint
+|:breaklist|	:breakl[ist]	list debugger breakpoints
+|:change|	:c[hange]	replace a line or series of lines
+|:cabbrev|	:ca[bbrev]	like ":abbreviate" but for Command-line mode
+|:cabclear|	:cabc[lear]	clear all abbreviations for Command-line mode
+|:caddfile|	:caddf[ile]	add error message to current quickfix list
+|:catch|	:cat[ch]	part of a :try command
+
+* Errors are a thing, idk what they are though
+|:cNext|	:cN[ext]	go to previous error
+|:cc|		:cc		go to specific error
+|:cdo|		:cdo		execute command in each valid error list entry
+|:cfdo|		:cfd[o]		execute command in each file in error list
+|:chistory|	:chi[story]	list the error lists
+|:clist|	:cl[ist]	list all errors
+
+
+|:command|	:com[mand]	create user-defined command
+
+|:delfunction|	:delf[unction]	delete a user function
+|:diffupdate|	:dif[fupdate]	update 'diff' buffers
+|:diffget|	:diffg[et]	remove differences in current buffer
+|:diffoff|	:diffo[ff]	switch off diff mode
+|:diffpatch|	:diffp[atch]	apply a patch and show differences
+|:diffput|	:diffpu[t]	remove differences in other buffer
+|:diffsplit|	:diffs[plit]	show differences with another file
+|:diffthis|	:diffthis	make current window a diff window
+|:endif|	:en[dif]	end previous :if
+|:endfor|	:endfo[r]	end previous :for
+|:endfunction|	:endf[unction]	end of a user function
+
+
 
 * Things to research:
     * using regexes in the :s mode
