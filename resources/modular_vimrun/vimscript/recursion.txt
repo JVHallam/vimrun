@@ -1,0 +1,11 @@
+"            ( Recursion )
+
+"-> Create a function that:
+"   * Takes an int
+"   * returns: "int, int - 1, int -2, ..., 0"
+
+function Recurse( a )
+endfunction
+
+"--> 
+"==> 5, 4, 3, 2, 1, 0

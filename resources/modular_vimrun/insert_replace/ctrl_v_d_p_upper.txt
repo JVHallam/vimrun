@@ -1,0 +1,13 @@
+            ( ctrl - v, d, P )
+
+--> this 
+--> one 
+--> sentence. 
+
+is
+co-herent
+I guess.
+
+==> this      is
+==> one       co-herent
+==> sentence. I guess.
