@@ -1,0 +1,9 @@
+            ( Recursion )
+
+" Function that:
+"   * Takes ( array, callback )
+"   * Implement the Array.Map function
+"   * Use recursion, instead of looping
+
+"==> RMap( [1,2,3], { x -> x*2 } )
+"==> [2, 4, 6 ]

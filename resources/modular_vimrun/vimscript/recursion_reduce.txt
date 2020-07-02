@@ -1,0 +1,7 @@
+"           ( Recursive Reduce )
+
+"--> Create a function that:
+"   * Takes ( array, reducer ) 
+"   * reducer( a, x ) --> returns a after modified by x
+"   * returns a single value
+

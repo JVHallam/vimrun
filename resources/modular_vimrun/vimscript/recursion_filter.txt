@@ -1,0 +1,5 @@
+"           ( Recursive Filter )
+
+"--> create a function that:
+"   * takes ( array, func )
+"   * returns an array that only contains elements that func( x ) -> true
