@@ -2,4 +2,5 @@
 
 "--> create a function that:
 "   * takes ( array, func )
+"        * func( x ) -> v:bool
 "   * returns an array that only contains elements that func( x ) -> true
