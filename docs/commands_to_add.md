@@ -3,12 +3,21 @@
 # Insertion
 
 # Movement
+* [{ And ]} to move between squiggly braces
+* [( and ]) to move between circle braces
+
+* [[ and ]] are worth understanding, i don't know wtf they do
 
 # Replacement
 
 # Special
 * More macros!
     * 10,15%norm @a:
+
+* Cleanup the existing macro exercise:
+    * Break it into a pair of exercises, not one
+    * Clean up the task ( remove the text )
+
 * :1,5 execution
 * :1,5j => join lines 1,5
 
@@ -27,6 +36,11 @@
     * =G
     * the =aw{ or something like that
 
+* filetype indentation:
+    * have a miss aligned block
+    * filetype indent on
+    * then update shit
+
 # Commandline and vimscript:
 * Mapping:
     * nnoremap:
@@ -39,6 +53,74 @@
 * : bufdo
 
 * vimscript:
+* Priority:
+
+* Control flow and operators and stuff
+function! infect(...)
+  echo a:0    "=> 2
+  echo a:1    "=> jake
+  echo a:2    "=> bella
+
+  for s in a:000  " a list
+    echon ' ' . s
+  endfor
+endfunction
+
+for s in list
+  echo s
+  continue  " jump to start of loop
+  break     " breaks out of a loop
+endfor
+
+while x < 5
+endwhile
+
+a is b
+a isnot b
+
+for key in keys(mydict)
+  echo key . ': ' . mydict(key)
+endfor
+
+* Variables
+let last  = mylist[-1]
+let withoutLast = myList[0:-2]
+let withoutFirst = myList[1:]
+let myDict = { "key" : "value" }
+
+* Functions
+len(str)
+split("one two three)
+split("one.two.three", ".")
+join(["one", "two"], ",")
+tolower("string")
+toupper("string")
+infect('jake', 'bella')
+sort(list)
+copy(list)
+add(mylist, value)
+map(myList, functionRef)
+filter( mylist, functionRef)
+remove(dictionary, "")
+has_key( dict, "key" )
+empty( dict ) -> is it empty
+keys( dict )
+count( dict, "x" ) -> Counts the occurence of a value
+string(dict) -> Turns a dict into a string
+let extend(s:fruits, { ... })
+
+execute -> useful to have some practise with
+normal G -> run normal mode commands, might be useful:
+
+* I want custom commands in here
+command! Save :set fo=want tw=80 nowrap
+
+* filetype detection
+augroup filetypedetect
+  au! BufNewFile,BufRead *.json setf javascript
+augroup END
+
+au Filetype markdown setlocal spell
 
 # Buffer commands:
 * :buffer
