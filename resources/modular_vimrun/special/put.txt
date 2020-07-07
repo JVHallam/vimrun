@@ -1,4 +1,0 @@
-            ( put =variable )
-
---> let a = globpath(".", "*" )
---> put =a to dump the file names into the file
