@@ -1,9 +1,9 @@
-"           ( Recursion )
+"           ( Recursive Map )
 
 " Function that:
 "   * Takes ( array, callback )
 "       * callback( value ) -> new value
 "   * Return an array of all values, after parsed by callback
 
-"==> RMap( [1,2,3], { x -> x*2 } )
-"==> [2, 4, 6 ]
+"--> RMap( [1,2,3], { x -> x*2 } ) ->
+"==> RMap( [1,2,3], { x -> x*2 } ) -> [2,4,6]

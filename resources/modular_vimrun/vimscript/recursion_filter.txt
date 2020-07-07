@@ -4,3 +4,5 @@
 "   * takes ( array, func )
 "        * func( x ) -> v:bool
 "   * returns an array that only contains elements that func( x ) -> true
+
+"--> RFilter( [1,2,3,4,5], { x -> x%2 } ) -> [1,3,5]

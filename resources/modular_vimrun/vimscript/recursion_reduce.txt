@@ -5,4 +5,5 @@
 "       * reducer( a, x ) --> returns a after modified by x
 "   * returns a single value
 
-"--> RFilter( [1,2,3,4,5], { x -> x%2 } ) -> [1,3,5]
+"--> RReduce( [1,2,3,4,5], { a,x -> a + x } ) 
+"==> RReduce( [1,2,3,4,5], { a,x -> a + x } ) -> 15
