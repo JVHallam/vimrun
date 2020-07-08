@@ -1,0 +1,8 @@
+"           ( empty )
+
+"# Create a function that:
+"* Takes an array or a dict
+"* Echos whether or not there are values in it
+"* Expected Messages:
+"   * Item is empty
+"   * Item contains values

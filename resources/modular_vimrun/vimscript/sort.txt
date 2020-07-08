@@ -1,0 +1,8 @@
+"           ( sort )
+
+"#Create a function that:
+"* Takes an array of larry's and jerry's
+"* Sorts them
+"* Larry is better than jerry
+
+"note : index( a:000, string ) helps

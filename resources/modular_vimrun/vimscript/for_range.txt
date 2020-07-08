@@ -1,0 +1,6 @@
+"           ( for range )
+
+"# Create a function that:
+"* Takes x
+"* Echos every value up to x
+"* Using a call to range

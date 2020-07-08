@@ -1,0 +1,6 @@
+"           ( join )
+
+"# Create a function that:
+"* Takes an array
+"* echos every value of that array, seperated by a comma
+"* e.g. Fn([1,2,3]) -> 1, 2, 3

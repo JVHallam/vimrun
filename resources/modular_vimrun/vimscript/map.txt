@@ -1,0 +1,7 @@
+"           ( map )
+
+"#Create a function that
+"* Takes an array
+"* returns a copy of that array that
+"* has each value doubled
+"* without mutating the state of the original array

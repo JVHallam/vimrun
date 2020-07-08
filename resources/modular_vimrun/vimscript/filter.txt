@@ -1,0 +1,7 @@
+"           ( filter )
+
+"# Create a function that
+"* Takes an array of numbers
+"* Returns a copy of that array that
+"* contains only the odd numbers of the first
+"* without mutating the first
