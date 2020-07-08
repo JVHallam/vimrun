@@ -6,8 +6,7 @@ let directoryList=[
 \   ["movement_special","1_movement_special"],
 \   ["deletion","2_deletion"],
 \   ["insert_replace","3_insert_replace"],
-\   ["special", "4_special" ],
-\   ["vimscript", "5_vimscript" ]
+\   ["vimscript", "4_vimscript" ]
 \]
 
 let g:exercisesPerFile=5
