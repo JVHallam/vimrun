@@ -1,0 +1,5 @@
+"           ( for )
+
+"#Create a function that:
+"* Takes an array
+"* Echos each value in that array

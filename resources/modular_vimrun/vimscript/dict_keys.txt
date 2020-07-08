@@ -1,0 +1,7 @@
+"           ( dict keys )
+
+"# Create a function that:
+"* Takes a dictionary
+"* for every key in the dict:
+"   * echos "key : value" 
+"* using the keys(dict) function

@@ -1,0 +1,7 @@
+"           ( args )
+
+"# Create a function that:
+"* Takes a variable number of args
+"* Echos all of them
+"* Use the a:000 to grab values from the args
+"* ... as the args to declare that you're using a:000 args

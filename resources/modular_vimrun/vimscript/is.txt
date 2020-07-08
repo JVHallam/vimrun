@@ -1,0 +1,5 @@
+"           ( a is b )
+
+"# Create a function that
+"* takes 2 args
+"* echos whether or not one is the other

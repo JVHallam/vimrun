@@ -1,0 +1,5 @@
+"           ( while )
+
+"# Create a function that:
+"* Takes an int
+"* echos every value up to an including that int

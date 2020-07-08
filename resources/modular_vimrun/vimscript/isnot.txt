@@ -1,0 +1,7 @@
+"           ( a isnot b )
+
+"# Create a function that
+"* takes 2 args
+"* echos whether or not one is the other
+"* if they are -> echo "They're the same"
+"* if they are not -> echo "They're aren't the same"
