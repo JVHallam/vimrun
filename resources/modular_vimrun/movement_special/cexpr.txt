@@ -1,0 +1,4 @@
+            ( cexpr <file>:<line>:<message> )
+
+--> :cexpr expand('%') . ":" . getcurpos()[1] . ": Custom message"
+--> :copen
