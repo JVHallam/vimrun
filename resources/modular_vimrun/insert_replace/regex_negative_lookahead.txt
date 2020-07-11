@@ -1,6 +1,6 @@
             ( Negative Lookahead )
 
 --> Grab the mi not followed by the casa
---> ( mi \( casa\)\@! )
+--> ( mi\( casa\)\@! )
 
 ==> mi casa es su casa, mi

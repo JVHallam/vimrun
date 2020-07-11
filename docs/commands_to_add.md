@@ -9,6 +9,8 @@
 * [[ and ]] are worth understanding, i don't know wtf they do
 
 # Replacement
+CTRL + D,
+CTRL + T, 
 
 # Special
 * More macros!

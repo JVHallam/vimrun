@@ -1,6 +1,6 @@
             ( \(mi\)\@<= casa )
 
---> Only match casa if it's pre-ceeded by casa
+--> Only match casa if it's pre-ceeded by mi
 
 ==> mi casa es su casa
 ==> mi not your casa
