@@ -8,6 +8,34 @@
 
 * [[ and ]] are worth understanding, i don't know wtf they do
 
+# Tags:
+* Setup documentation
+* Create tags
+* Have an exercise for creating tags
+* Use tags to jump to parts of your documentation
+* Learn how tags work, then apply this shit
+
+* Text objects and their parents.
+vatat -> Highlight the current tag, then highlight the parent tag
+
+<grandparent>
+    <parent>
+            <child>
+                    This is my child
+            </child>	
+    </parent>
+</grandparent>
+
+( grand ( parent ( child ) close ) close )
+
+{ grand { parent { child } close } close }
+
+this. is. some. sentences. that. keep. going. on.
+
+Paragraphs work too.
+
+words too.
+
 # Replacement
 CTRL + D,
 CTRL + T, 
@@ -53,9 +81,18 @@ CTRL + T,
 * write
 * : tabdo
 * : bufdo
+* piping commands:
+    * /s/more stuff/morestuff/ more stuff/ etc.
+    * %s/ match / `\0` /g
+        * surround all matches with backticks
 
 * vimscript:
+    * Recursive sort
+    * Take the sort function i already have and make it recursive
 * Priority:
+
+* Assertions!:
+    * There should be assertions on the functions, not long ass descriptions.
 
 * Control flow and operators and stuff
 
