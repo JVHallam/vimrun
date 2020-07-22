@@ -5,3 +5,4 @@
 "* returns a copy of that array that
 "* has each value doubled
 "* without mutating the state of the original array
+"* let a = map( x, func ), the let a is required for the thing to work

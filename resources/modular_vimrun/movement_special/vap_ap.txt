@@ -1,0 +1,10 @@
+            ( vap, ap )
+
+
+--> Vap will highlight
+    This block of text
+
+--> ap will continue to highligh
+    this ones too.
+
+--> And then this one.
