@@ -1,9 +1,0 @@
-"               ( call CustomFunction )
-
-function Override()
-    echo "This is the custom function"
-endfunction
-
-function! Override()
-    echo "This function will override the first!"
-endfunction
