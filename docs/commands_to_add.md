@@ -1,11 +1,7 @@
-# Deletion
-
-# Insertion
+# Insert and replace
+wtf am i trying to do with magic mode \v
 
 # Movement
-* [{ And ]} to move between squiggly braces
-* [( and ]) to move between circle braces
-
 * [[ and ]] are worth understanding, i don't know wtf they do
 * they jump to the next { on the first column. Kinda useless.
 
@@ -29,6 +25,13 @@ CTRL + D,
 CTRL + T, 
 
 # Special
+* gf:
+    * maybe have an overview list of the files with the exercises in them
+    * use gf to go to that file
+    * buffer management to do w/e
+    * instead of opening them all in tabs
+    * make this a config option
+
 * More macros!
     * 10,15%norm @a:
 
@@ -77,6 +80,7 @@ CTRL + T,
 * vimscript:
     * Recursive sort
     * Take the sort function i already have and make it recursive
+
 * Priority:
 
 * Assertions!:

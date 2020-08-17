@@ -9,7 +9,8 @@ let directoryList=[
 \   ["vimscript", "4_vimscript" ]
 \]
 
-let g:exercisesPerFile=5
+let g:exercisesPerFile=10
+let g:vimscriptCount=3
 
 " ============================= Functions ========================================================
 
@@ -137,11 +138,18 @@ call InitEnvironment()
 
 " Create the files
 for pair in directoryList
+    let exerciseCount = g:exercisesPerFile
+
+    if( pair[0] == "vimscript" )
+        let exerciseCount = g:vimscriptCount
+    endif
+
+    echo exerciseCount
     " Create the temp file
     call SetupSingleSession( pair[0] )
 
     " Grab the list of exercise file names from the file
-    let fileList = FetchSession( pair[0], g:exercisesPerFile )
+    let fileList = FetchSession( pair[0], exerciseCount )
 
     " Run for a directory!
     call RunForOneDirectory( fileList, pair[1] )
