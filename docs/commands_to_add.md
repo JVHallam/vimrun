@@ -72,6 +72,12 @@ CTRL + T,
 * write
 * : tabdo
 * : bufdo
+
+* Buffers, splits and tabs:
+    * When running the script, have some additional files load into buffers
+    * These files could be used for ":sview horizontal", ":split sb 3"
+    * That way, i can practise a bit more buffer management
+
 * piping commands:
     * /s/more stuff/morestuff/ more stuff/ etc.
     * %s/ match / `\0` /g
