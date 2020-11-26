@@ -1,0 +1,4 @@
+readfile("filename.txt") : read a files contents into a variable
+call append(line("$"), variable)
+call deletebufline( buffer, line, line )
+call deletebufline( bufnr(), 1, line("$") ) -> Delete all lines in the current file
