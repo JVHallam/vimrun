@@ -1,9 +1,9 @@
-" Hint appends the solution to the current file
-
 " State
-let g:test = [ [ "first.txt", "hint.txt" ], [ "second.txt", "second_hint.txt" ] ]
+let g:exercises = []
 let g:currIndex = -1
-let g:currFile = g:test[0]
+let g:currFile = v:null
+let g:exercisePath = "contents/exercise/"
+let g:hintPath = "contents/hint/"
 
 " Read the hint file into the current file
 function AppendHint( hintPath )
@@ -23,7 +23,8 @@ function EmptyFile()
 endfunction
 
 function CloseApp()
-    echo "We're all out of cum at " . g:currIndex
+    echo "All done"
+    :q!
 endfunction
 
 " Value array are the lines to be added into the current file
@@ -33,19 +34,15 @@ function SetupFile( templatePath )
 endfunction
 
 function Advance()
-    " Load the next buffer?
-    " Fuck off, is it just bnext?
-    " Need to find a more elegant solution than bnext
-    " Due to the fact that bnext doesn't 
     echo "Advancing"
     let g:currIndex = g:currIndex + 1
 
-    if( g:currIndex >= len( g:test ) )
+    if( g:currIndex >= len( g:exercises ) )
         call CloseApp()
         return
     endif
 
-    let g:currFile = g:test[g:currIndex]
+    let g:currFile = g:exercises[g:currIndex]
     echo g:currFile
 
     call EmptyFile()
@@ -54,6 +51,20 @@ function Advance()
 
     " Dump the current exercise into the current file
 endfunction
+
+function Init()
+    " get a list of just the file names, not the full path
+    let a = globpath(g:exercisePath , "*.txt")
+    let a = a->split("\n")
+    let b = a->map({ index, value -> value->substitute("exercise\\", "", "") })
+    let b = b->map({ index, value -> value->substitute("contents\\", "", "") })
+    let g:exercises = b
+
+    let g:exercises = b->map({ index, value -> [g:exercisePath . value, g:hintPath . value] })
+endfunction
+
+call Init()
+echo g:exercises
 
 nnoremap <down> :call Hint()<cr>
 nnoremap <right> :call Advance()<cr>
