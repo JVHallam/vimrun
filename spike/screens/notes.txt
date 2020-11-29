@@ -2,3 +2,11 @@ readfile("filename.txt") : read a files contents into a variable
 call append(line("$"), variable)
 call deletebufline( buffer, line, line )
 call deletebufline( bufnr(), 1, line("$") ) -> Delete all lines in the current file
+search( regex ) -> find something that matches the regex
+:call eval("FunctionName()")
+matchstr( getline(line), pattern )
+matchstr( getline(line), "\\w*(" ) -> get's the name of the function on the current line
+getline(line)->matchstr("pattern") -> That's another way
+search( regex, "n" ) -> don't move the cursor
+filereadable(filePath) -> Check if file exists
+excute "source " . a:fileName -> source a file from vimscript

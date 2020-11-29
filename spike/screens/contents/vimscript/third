@@ -1,0 +1,24 @@
+" What i want to do is:
+" Find the line that starts with function
+" Grab the value directly after it
+" Call that?
+" :call eval("FunctionName()")
+function Third()
+    echo "This is the third!"
+endfunction
+
+function GetFunction()
+    "get the first match to function
+    let functionNameRegex = "\\w*("
+    let a = search("^function", "n")
+    let name = getline(a)->matchstr( functionNameRegex )
+    return name
+endfunction
+
+function GetAndExecute()
+    let name = GetFunction()
+    " call eval(name . ")")
+    call eval(name . "1,2,3)")
+endfunction
+
+nnoremap <up> :w<cr>:source %<cr>:call GetAndExecute()<cr>
